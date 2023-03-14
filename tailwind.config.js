@@ -7,11 +7,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'primary': '#a78bfa',
+      'primary': '#1d3557',
+      'secondary': '#e63946',
       'accent': '#ddd6fe',
-      'dark': '#502f4c',
-      'dark-text': '#212738',
-      'light-text': '#fefae0',
+      'dark': '#120309',
+      'light-text': '#f1faee',
     },
     extend: {
       keyframes: {

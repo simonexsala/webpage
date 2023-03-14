@@ -2,7 +2,7 @@
 const route = useRoute()
 
 const { data: scritti } = await useAsyncData('scritti', () =>
-  queryContent('/scritti').find()
+  queryContent('/frammenti').find()
 )
 
 </script>
@@ -11,7 +11,7 @@ const { data: scritti } = await useAsyncData('scritti', () =>
   <div class="container flex-1 max-w-3xl px-6 mx-auto space-y-12 xl:max-w-5xl">
     <main>
       <div>
-        <h2 class="underline decoration-primary text-3xl font-extrabold">Scritti</h2>
+        <h2 class="underline decoration-primary text-3xl font-extrabold">Frammenti</h2>
       </div>
 
       <div class="grid justify-center grid-cols-1 gap-4 sm:grid-cols-2 mt-6">
