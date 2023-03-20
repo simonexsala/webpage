@@ -1,6 +1,6 @@
 ---
 title: Il magico amore
-description: Scrivendo questo pezzo sull'amore bucolico
+description: SScrivendo Scrivendo Scrivendo Scrivendo Scrivendo Scrivendo crivendo questo pezzo sull'amore bucolico
 author: Simone Sala
 date: 2022/12/1
 coverImage: cat.jpg

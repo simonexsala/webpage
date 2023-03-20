@@ -1,32 +1,36 @@
 <template>
-  <div class="space-y-6">
-    <div>
-      <h2 class="underline decoration-primary text-3xl font-extrabold">Frammenti</h2>
-    </div>
+  <article class="group">
+    <div class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
+      <img
+        alt=""
+        src="../public/abstract.jpg"
+        class="h-56 w-full rounded-xl object-cover shadow-xl transition"
+      />
 
-    <div class="flex flex-col justify-center">
-      <div
-        class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-xl p-3 mx-auto bg-white">
-        <div class="w-full md:w-2/5 bg-white grid place-items-center">
-          <img src="https://images.pexels.com/photos/4381392/pexels-photo-4381392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="tailwind logo" class="rounded-xl" />
-        </div>
-          <div class="w-full md:w-3/5 bg-white flex flex-col space-y-2 p-3">
-            <h2 class="font-extrabold text-gray-800 md:text-3xl text-xl">The and Wonderful </h2>
-            <p class="md:text-lg text-gray-500 text-base">The best kept secret of The Bahamas is the country’s sheer
-              size and diversity. With 16 major islands, The Bahamas is an unmatched destination
-            </p>
-              <div class="flex flex-wrap justify-center">
-                <NuxtLink to="/frammenti">
-                  <button class="shadow-md hover:shadow-lg group px-8 py-3 m-2 text-lg font-semibold rounded-xl dark:bg-accent dark:text-gray-900">
-                    Frammenti 
-                    <Icon name="charm:arrow-right" class="animate-[shake_2s_linear_infinite]" />
-                  </button>
-                </NuxtLink>
-              </div>
-          </div>
+      <div class="p-6">
+        <h2 class="underline text-lg font-medium text-gray-900">
+          Frammenti
+        </h2>
+
+        <p class="mt-2 text-sm leading-relaxed text-gray-500">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+          dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+          sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+          voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+          Molestias explicabo corporis voluptatem?
+        </p>
+
+        <div class="flex flex-wrap justify-center">
+          <NuxtLink to="/frammenti">
+            <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-400 hover:shadow-lg">
+              Frammenti 
+              <Icon name="charm:arrow-right" />
+            </button>
+          </NuxtLink>
         </div>
       </div>
-  </div>
+    </div>
+  </article>
 </template>
 
 <script>
