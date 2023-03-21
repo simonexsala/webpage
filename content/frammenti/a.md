@@ -1,10 +1,10 @@
 ---
-title: Il magico amore
-description: Scrivendo questo pezzo sull'amore bucolico
-author: Simone Sala
-date: 2022/12/1
+title: Yabbadabbadoooo 
+description: Miao miao miao questo pezzo sull'amore bucolico
+author: Friedrich Nietzsche
+year: 2022
+book: La Gaia Scienza
 coverImage: cat.jpg
-field: filosofia
 ---
 
 # a

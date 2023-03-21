@@ -16,7 +16,7 @@
         <a rel="noopener noreferrer" href="mailto:simonexsala@protonmail.com" aria-label="Email" class="p-2">
           <Icon name="mdi:email" size="25" color="black" />
         </a>
-        <button class="p-2">
+        <button class="p-2" @click="">
           <Icon name="mdi:bitcoin" size="25" color="black" />
         </button>
       </div>
@@ -24,14 +24,5 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Footer',
-  data() {
-    return {
-    };
-  },
-  methods: {
-  },
-}
+<script setup>
 </script>

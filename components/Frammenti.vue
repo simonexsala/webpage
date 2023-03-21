@@ -8,7 +8,7 @@
       />
 
       <div class="p-6">
-        <h2 class="underline text-lg font-medium text-gray-900">
+        <h2 class="underline decoration-2 decoration-violet-300 text-lg font-medium text-gray-900">
           Frammenti
         </h2>
 
@@ -22,7 +22,7 @@
 
         <div class="flex flex-wrap justify-center">
           <NuxtLink to="/frammenti">
-            <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-400 hover:shadow-lg">
+            <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
               Frammenti 
               <Icon name="charm:arrow-right" />
             </button>

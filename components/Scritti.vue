@@ -5,7 +5,7 @@
         <div class="grid p-6 bg-gray-100 rounded-xl place-content-center sm:p-8 shadow-md">
           <div class="max-w-md mx-auto lg:text-left group">
             <header>
-              <h2 class="underline text-lg font-medium text-gray-900">
+              <h2 class="underline decoration-2 decoration-violet-300 text-lg font-medium text-gray-900">
                 Scritti
               </h2>
 
@@ -21,7 +21,7 @@
 
             <div class="flex flex-wrap justify-center">
               <NuxtLink to="/scritti">
-                <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-400 hover:shadow-lg">
+                <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
                   Scritti 
                   <Icon name="charm:arrow-right" />
                 </button>

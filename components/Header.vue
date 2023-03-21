@@ -5,35 +5,34 @@
         <div class="flex-1">
           <NuxtLink to="/">
             <span class="sr-only">Logo</span>
-            <span class="font-bold bg-gray-200 px-3 py-2 rounded-xl hover:bg-violet-400 hover:text-white">Simone Sala</span>
+            <span class="font-bold bg-gray-200 px-3 py-2 rounded-xl hover:bg-violet-300 hover:text-white">Simone Sala</span>
           </NuxtLink>
-          <span class="font-bold bg-gray-200 ml-4 px-3 py-2 rounded-xl hover:bg-violet-400 hover:text-white">👋</span>
         </div>
 
         <nav
           aria-label="Site Nav"
-          class="hidden gap-8 text-gray-900 text-sm  md:flex"
+          class="hidden gap-8 text-gray-900 text-sm font-medium md:flex"
         >
-          <NuxtLink to="/scritti" class="text-gray-500">
+          <NuxtLink to="/scritti" class="text-gray-900 hover:underline decoration-2 decoration-violet-300">
             Scritti
           </NuxtLink>
-          <NuxtLink to="/frammenti" class="text-gray-500">
+          <NuxtLink to="/frammenti" class="text-gray-900 hover:underline decoration-2 decoration-violet-300">
             Frammenti
           </NuxtLink>
-          <NuxtLink to="/progetti" class="text-gray-500">
+          <NuxtLink to="/progetti" class="text-gray-900 hover:underline decoration-2 decoration-violet-300">
             Progetti
           </NuxtLink>
         </nav>
 
         <div class="items-center justify-end gap-4 flex">
           <div class="">
-            <button class="rounded-xl bg-blue-100 h-10 p-2" type="button">
-              <span class="sr-only">Change theme</span>
-              <Icon name="tabler:moon-stars" size="25" color="black" />
+            <button class="rounded-xl bg-violet-300 h-10 p-2" type="button">
+              <span class="sr-only">Search</span>
+              <Icon name="mdi:search" size="25" color="white"/>
             </button>
           </div>
 
-          <div class="lg:hidden">
+          <div class="md:hidden">
             <HeaderMenu />
           </div>
         </div>

@@ -1,12 +1,10 @@
 <template>
   <section>
-    <div class="mx-auto w-full max-w-screen-xl px-4 py-2 sm:px-16 lg:px-36">
-      <div class="max-w-3xl">
-        <h2 class="text-3xl font-bold sm:text-4xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
-          doloribus impedit.
-        </h2>
-      </div>
+    <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-12 xl:max-w-5xl">
+      <h2 class="text-3xl font-bold sm:text-4xl">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
+        doloribus impedit.
+      </h2>
 
       <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 lg:gap-16">
         <div class="lg:h-full mb-8 lg:mb-0">
