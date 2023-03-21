@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-screen-xl py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+    <div class="max-w-screen-xl mx-auto sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
         <div class="grid p-6 bg-gray-100 rounded-xl place-content-center sm:p-8 shadow-md">
           <div class="max-w-md mx-auto lg:text-left group">
@@ -30,55 +30,37 @@
           </div>
         </div>
 
-        <div class="lg:col-span-2 lg:py-8">
+        <div class="lg:col-span-2 lg:py-4">
           <ul class="grid grid-cols-2 gap-4">
-            <li>
-              <a href="#" class="block group">
-                <img
-                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
-                  alt=""
-                  class="object-cover w-full rounded-xl aspect-square"
-                />
-
-                <div class="mt-3">
+            <li class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
+              <NuxtLink to="/scritti/la-caduta-moderna" class="block group">
+                <nuxt-img src="../public/scritti/la-caduta-moderna.jpg" alt="" class="object-cover w-full rounded-xl aspect-square" />
+                <div class="p-2 py-3 md:p-4 lg:p-8">
                   <h3
-                    class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                    class="text-center font-medium text-gray-600 group-hover:underline group-hover:underline-offset-4"
                   >
-                    Simple Watch
+                    La caduta moderna 
                   </h3>
-
-                  <p class="mt-1 text-sm text-gray-700">$150</p>
                 </div>
-              </a>
+              </NuxtLink>
             </li>
-
-            <li>
-              <a href="#" class="block group">
-                <img
-                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
-                  alt=""
-                  class="object-cover w-full rounded-xl aspect-square"
-                />
-
-                <div class="mt-3">
+            <li class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
+              <NuxtLink to="/scritti/la-nuova-frontiera" class="block group">
+                <nuxt-img src="../public/scritti/la-nuova-frontiera.jpg" alt="" class="object-cover w-full rounded-xl aspect-square" />
+                <div class="p-2 py-3 md:p-4 lg:p-8">
                   <h3
-                    class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                    class="text-center font-medium text-gray-600 group-hover:underline group-hover:underline-offset-4"
                   >
-                    Simple Watch
+                    La nuova frontiera 
                   </h3>
-
-                  <p class="mt-1 text-sm text-gray-700">$150</p>
                 </div>
-              </a>
+              </NuxtLink>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-
-
-
 </template>
 
 <script>

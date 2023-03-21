@@ -2,9 +2,9 @@
     <Menu as="div" class="inline-block">
       <div>
         <MenuButton
-          class="rounded-xl bg-gray-100 p-2 hover:bg-violet-300"
+          class="rounded-xl bg-gray-900 p-2 hover:bg-violet-300" 
         >
-          <Icon name="mdi:menu" size="25" color="black" />
+          <Icon name="mdi:menu" size="25" color="white" />
         </MenuButton>
       </div>
 
@@ -21,32 +21,38 @@
         >
           <div class="px-2 py-1">
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/" @mouseup="close" class="group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
                 Home
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/scritti" @mouseup="close" class="group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/scritti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
                 Scritti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
+                  {{ numeroScritti }}
                 </span>
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/frammenti" @mouseup="close" class="group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/frammenti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
                 Frammenti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
+                  {{ numeroFrammenti }}
                 </span>
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/progetti" @mouseup="close" class="group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/progetti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
                 Progetti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
-{{ numFrammenti }}
+                  {{ numeroProgetti }}
                 </span>
               </NuxtLink>
-
+            </MenuItem>
+            <MenuItem v-slot="{ close }">
+              <NuxtLink to="/biografia" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+                Biografia
+              </NuxtLink>
             </MenuItem>
           </div>
         </MenuItems>
@@ -54,28 +60,14 @@
     </Menu>
 </template>
 
-<script>
+<script setup>
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 
-export default {
-  components: { Menu, MenuButton, MenuItems, MenuItem },
-  data() {
-    return {
-      numScritti: null,
-      numFrammenti: null,
-    }
-  },
-  created() {
-    this.fetch()
-  },
-  methods: {
-    async fetch() {
-      const numScritti = await this.$content('scritti').fetch().then((docs) => docs.length)
-      const numFrammenti = await this.$content('frammenti').fetch().then((docs) => docs.length)
-      console.log(numScritti)
-      this.numScritti = numScritti
-      this.numFrammenti = numFrammenti
-    },
-  },
-}
+const { data: scrittiData } = await useAsyncData('scritti', () => queryContent('/scritti').find())
+const { data: frammentiData } = await useAsyncData('frammenti', () => queryContent('/frammenti').find())
+const { data: progettiData } = await useAsyncData('progetti', () => queryContent('/progetti').find())
+
+const numeroScritti = scrittiData._rawValue.length
+const numeroFrammenti = frammentiData._rawValue.length
+const numeroProgetti = progettiData._rawValue.length
 </script>

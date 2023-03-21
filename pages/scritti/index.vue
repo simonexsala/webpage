@@ -4,6 +4,11 @@ const route = useRoute()
 const { data: scritti } = await useAsyncData('scritti', () =>
   queryContent('/scritti').find()
 )
+
+const formatDate = (date) => {
+  const options = { day: 'numeric', month: 'long', year: 'numeric' };
+  return new Date(date).toLocaleDateString('it-IT', options);
+}
 </script>
 
 <template>
@@ -17,15 +22,15 @@ const { data: scritti } = await useAsyncData('scritti', () =>
         <div v-for="scritto in scritti" :key="scritto._id">
           <div class="max-w-sm rounded-xl mx-auto group hover:shadow-xl focus:no-underline">
             <NuxtLink :to="scritto._path">
-              <nuxt-img :src="`../public/scritti/${scritto.coverImage}`" alt="" class="object-cover object-center w-full rounded-xl h-72"
+              <NuxtImg :src="`${scritto.coverImage}`" alt="" class="object-cover object-center w-full rounded-xl h-72"
               />
-              <div class="flex flex-col justify-between p-6 pt-2 space-y-8">
+              <div class="flex flex-col p-6 pt-2 space-y-8">
                 <div class="space-y-2">
                   <div class="flex items-center gap-x-4 text-xs">
-                    <time datetime="" class="text-gray-500">
-                      {{ scritto.date }}
+                    <time datetime="{{ scritto.date }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
+                      {{ formatDate(scritto.date) }}
                     </time>
-                    <span class="uppercase relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100">
+                    <span class="relative z-10 rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
                       {{ scritto.field }}
                     </span>
                   </div>

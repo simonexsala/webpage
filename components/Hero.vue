@@ -1,18 +1,18 @@
 <template>
   <section>
-    <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-12 xl:max-w-5xl">
+    <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-6 xl:max-w-5xl">
       <h2 class="text-3xl font-bold sm:text-4xl">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
         doloribus impedit.
       </h2>
 
-      <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 lg:gap-16">
-        <div class="lg:h-full mb-8 lg:mb-0">
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 md:gap-16">
+        <div class="md:h-full mb-4 lg:mb-0">
           <nuxt-img src="cat.jpg" alt="" class="rounded-xl"
           />
         </div>
 
-        <div class="lg:py-32">
+        <div class="xl:py-24">
           <article class="space-y-2 text-sm leading-relaxed text-gray-600">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
