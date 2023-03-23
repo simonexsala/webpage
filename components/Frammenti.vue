@@ -3,7 +3,7 @@
     <div class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
       <NuxtImg
         alt=""
-        src="../public/frammenti.jpg"
+        src="frammenti.jpg"
         class="h-56 w-full rounded-xl object-cover shadow-xl transition"
       />
 

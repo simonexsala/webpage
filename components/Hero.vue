@@ -8,8 +8,7 @@
 
       <div class="mt-4 grid grid-cols-1 md:grid-cols-2 md:gap-16">
         <div class="md:h-full mb-4 lg:mb-0">
-          <nuxt-img src="cat.jpg" alt="" class="rounded-xl"
-          />
+          <NuxtImg src="cat.jpg" alt="" class="rounded-xl" />
         </div>
 
         <div class="xl:py-24">
