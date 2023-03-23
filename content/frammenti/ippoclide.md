@@ -7,6 +7,7 @@ section: Parte tre. Uomini di forza, e l'ascesa della gioventù, sezione 51
 title: Ippoclide 
 description: Il mistero del rigor mortis rivela grandi cose! Perché il tessuto morto diventa rigido? Uno studio ha immerso carne morta e rigida in una soluzione di ATP, il principio generatore di energia per le cellule
 field: Filosofia 
+addedDate: 2023/03/22
 ---
 
 # Ippoclide
