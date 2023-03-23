@@ -19,7 +19,10 @@
               {{ doc.author }}, 
             </span>
             <span>
-              {{ doc.book}}, 
+              {{ doc.book }} 
+            </span>
+            <span class="italic">
+              ({{ doc.year }}). 
             </span>
             <span class="italic">
               {{ doc.section }}.
