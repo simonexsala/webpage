@@ -26,8 +26,11 @@ const { data: scritti } = await useAsyncData('frammenti', () =>
                     <time datetime="{{ scritto.year }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ scritto.year }}
                     </time>
-                    <span class="relative z-10 rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+                    <span v-if="scritto.book.length < 31" class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
                       {{ scritto.book }}
+                    </span>
+                    <span v-else class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+                      {{ scritto.book.substring(0,31) + "..." }}
                     </span>
                   </div>
 

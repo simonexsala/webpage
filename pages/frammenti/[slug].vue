@@ -8,8 +8,11 @@
             <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
               {{ doc.year }}
             </time>
-            <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+            <span v-if="doc.book.length < 24" class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
               {{ doc.book }}
+            </span>
+            <span v-else class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+              {{ doc.book.substring(0,24) + "..." }}
             </span>
           </div>
           <ContentRenderer :value="doc" />
