@@ -1,9 +1,9 @@
 <template>
   <article class="group">
     <div class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
-      <img
+      <NuxtImg
         alt=""
-        src="../public/abstract.jpg"
+        src="../public/frammenti.jpg"
         class="h-56 w-full rounded-xl object-cover shadow-xl transition"
       />
 
