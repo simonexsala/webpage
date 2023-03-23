@@ -14,7 +14,15 @@
         <ContentRenderer :value="doc" />
         <hr class="w-48 h-0.5 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10">
         <p class="text-sm leading-relaxed text-gray-500">
-          {{ doc.author }}, {{ doc.book}}, <i>{{ doc.section }}</i>.
+          <span>
+            {{ doc.author }}, 
+          </span>
+          <span>
+            {{ doc.book}}, 
+          </span>
+          <span class="italic">
+            {{ doc.section }}.
+          </span>
         </p>
 
       </ContentDoc>

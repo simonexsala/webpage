@@ -4,8 +4,10 @@ author: Friedrich Nietzsche
 book: Il crepuscolo degli idoli
 year: 1888 
 section: Scorrerie di un inattuale, aforisma 48 
-description: Progresso nel senso mio. Anch'io parlo di «ritorno alla Natura», sebbene questo propriamente non sia un tornare indietro ma un salire in alto, in alto, verso l'alta, libera, magari terribile Natura e naturalezza, una Natura che gioca e può giocare coi grandi compiti... 
-field: filosofia 
+title: Progresso nel senso mio
+description: Anch'io parlo di «ritorno alla Natura», sebbene questo propriamente non sia un tornare indietro ma un salire in alto, in alto, verso l'alta, libera, magari terribile Natura e naturalezza, una Natura che gioca e può giocare coi grandi compiti... 
+field: Filosofia 
+addedDate: 2023/03/20
 ---
 
 # Progresso nel senso mio

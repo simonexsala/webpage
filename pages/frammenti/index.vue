@@ -32,9 +32,12 @@ const { data: scritti } = await useAsyncData('frammenti', () =>
                   </div>
 
                   <h2 class="text-lg font-medium text-gray-900">
-                    {{ scritto.author }}
+                    {{ scritto.title }}
                   </h2>
-                  <p class="text-sm leading-relaxed text-gray-500 line-clamp-2">
+                  <h3 class="italic text-gray-900">
+                    {{ scritto.author }}
+                  </h3>
+                  <p class="text-sm leading-relaxed text-gray-500 line-clamp-3">
                     {{ scritto.description }}
                   </p>
                 </div>
