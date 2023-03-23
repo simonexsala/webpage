@@ -3,7 +3,7 @@ coverImage: /frammenti/machiavelli.jpg
 author: Niccolò Machiavelli 
 book: Discorsi
 year: 1519
-section: Libro secondo, sezione 2
+section: Libro secondo — sezione 2
 title: Pagani e Cristiani
 description: Pensando dunque donde possa nascere, che, in quegli tempi antichi, i popoli fossero più amatori della libertà che in questi; credo nasca da quella medesima cagione che fa ora gli uomini manco forti
 field: Religione

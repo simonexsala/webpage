@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Così parlò Zarathustra 
 year: 1885 
-section: Seconda parte. Delle tarantole
+section: Seconda parte — delle tarantole
 title: Delle tarantole
 description: «Ecco, questa è la caverna della tarantola! Vuoi proprio vederla? Qui pende la sua rete. Toccala, perchè vibri. Eccola che giunge volonterosa; benvenuta tarantola!
 field: Filosofia 
