@@ -1,5 +1,15 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Simone Sala',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: '' }
+      ],
+    },
+  },
   components: true,
   modules: [
     'nuxt-icon',
@@ -10,12 +20,16 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@headlessui/vue', '@tailwindcss/typography'],
   },
-  head: {
-    title: 'Simone Sala',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
-    ],
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path: '/scritti',
+        component: resolve(__dirname, 'pages/scritti/index.vue'),
+        meta: {
+          title: 'Scritti',
+          search: true,
+        },
+      });
+    },
   },
 })

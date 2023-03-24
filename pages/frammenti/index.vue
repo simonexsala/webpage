@@ -2,12 +2,27 @@
 const route = useRoute()
 
 const { data: scritti } = await useAsyncData('frammenti', () =>
-  queryContent('/frammenti').find()
+  queryContent('/frammenti').sort({ addedDate: -1 }).find()
 )
+
+const title = ref('Frammenti')
+const description = ref('Collezione di frammenti')
+useHead({
+  title,
+  meta: [
+    {
+      name: 'description',
+      content: description
+    },
+    {
+      name: 'search',
+      content: 'yes'
+    },
+  ]
+})
 </script>
 
 <template>
-
   <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-12 xl:max-w-5xl">
     <main>
       <div>

@@ -21,13 +21,13 @@
           class="overflow-hidden rounded-xl shadow-lg"
         >
           <div class="bg-gray-50 p-2">
-            <label for="search" class="sr-only">Search</label>
+            <label for="search" class="sr-only">Cerca</label>
             <div class="flex justify-center">
               <div class="flex items-center">
                 <Icon name="mdi:search" size="25" color="black"/>
               </div>
               <input class="ml-2 w-48 px-4 py-2 text-sm text-gray-900 rounded-xl" placeholder="Cerca...">
-              <button class="text-white px-4 py-2 ml-2 text-sm font-medium transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">Search</button>
+              <button class="text-white px-4 py-2 ml-2 text-sm font-medium transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">Cerca</button>
             </div>
           </div>
         </div>

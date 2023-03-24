@@ -1,12 +1,10 @@
 <template>
     <Menu as="div" class="inline-block">
-      <div>
-        <MenuButton
-          class="rounded-xl bg-gray-900 p-2 hover:bg-violet-300" 
-        >
-          <Icon name="mdi:menu" size="25" color="white" />
-        </MenuButton>
-      </div>
+      <MenuButton
+        class="rounded-xl bg-gray-900 p-2 hover:bg-violet-300" 
+      >
+        <Icon name="mdi:menu" size="25" color="white" />
+      </MenuButton>
 
       <transition
         enter-active-class="transition duration-150 ease-out"

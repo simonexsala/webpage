@@ -7,7 +7,7 @@ section: capitolo X
 title: Socialisti
 description: «Ecco, Rodiòn. Sta' a sentire e dacci la tua opinione. La voglio. Ieri mi son fatto in quattro con loro, aspettandoti; avevo detto che saresti venuto... Eravamo partiti dalla concezione dei socialisti.
 field: cultura
-addedDate: 2023/03/23
+addedDate: 2023/03/19
 ---
 
 # Socialisti

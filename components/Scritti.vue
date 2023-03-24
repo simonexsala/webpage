@@ -20,9 +20,9 @@
           Molestias explicabo corporis voluptatem?
         </p>
 
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center mt-8">
           <NuxtLink to="/scritti">
-            <button class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+            <button class="inline-block px-12 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
               Scritti 
               <Icon name="charm:arrow-right" />
             </button>

@@ -2,13 +2,29 @@
 const route = useRoute()
 
 const { data: scritti } = await useAsyncData('scritti', () =>
-  queryContent('/scritti').find()
+  queryContent('/scritti').sort({ date: -1 }).find()
 )
 
 const formatDate = (date) => {
   const options = { day: 'numeric', month: 'long', year: 'numeric' };
   return new Date(date).toLocaleDateString('it-IT', options);
 }
+
+const title = ref('Scritti')
+const description = ref('Collezione di scritti')
+useHead({
+  title,
+  meta: [
+    {
+      name: 'description',
+      content: description
+    },
+    {
+      name: 'search',
+      content: 'yes'
+    },
+  ]
+})
 </script>
 
 <template>
