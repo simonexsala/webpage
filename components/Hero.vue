@@ -1,22 +1,22 @@
 <template>
   <section>
     <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-6 xl:max-w-5xl">
-      <h2 class="text-3xl font-bold sm:text-4xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
-        doloribus impedit.
-      </h2>
+      <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
+        <span>In quale senso una cultura è</span> 
+        <span class="text-transparent bg-clip-text bg-gradient-to-l from-violet-400 to-pink-300">
+          più alta?
+        </span>
+      </h1>
 
       <div class="mt-4 grid grid-cols-1 md:grid-cols-2 md:gap-16">
         <div class="md:h-full mb-4 lg:mb-0">
-          <NuxtImg src="cat.jpg" alt="" class="rounded-xl" />
+          <NuxtImg preload src="cat.jpg" class="rounded-xl" />
         </div>
 
         <div class="xl:py-24">
           <article class="space-y-2 text-sm leading-relaxed text-gray-600">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
-              hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
-              minus veniam tempora deserunt? Molestiae eius quidem quam repellat.
+              È il panda minore o il kodkod ad essere più nobile?
             </p>
 
             <p>

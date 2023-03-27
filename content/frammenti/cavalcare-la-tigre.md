@@ -3,7 +3,7 @@ coverImage: /frammenti/romualdi.jpg
 author: Adriano Romualdi
 book: Julius Evola. L’uomo e l’opera
 year: 1968
-section: Pagine 86-90
+section: Cavalcare la tigre
 title: Cavalcare la tigre
 description: Il ristagno della situazione interna italiana alla fine degli anni ‘50 spinge Evola verso soluzioni personali del problema della vita. Il suo interesse si sposta verso quei sentieri individuali lungo
 field: Filosofia

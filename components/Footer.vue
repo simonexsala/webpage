@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col p-6 mt-6 backdrop-filter backdrop-blur-lg bg-opacity-25">
-    <nuxt-img src="avatar.jpg" alt="" class="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" 
+    <NuxtImg src="avatar.jpg" alt="" class="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" 
     />
     <div class="text-center">
       <div class="my-2 space-y-1">

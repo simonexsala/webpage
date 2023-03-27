@@ -4,6 +4,7 @@
       <NuxtImg
         alt=""
         src="scritti.jpg"
+        loading="lazy"
         class="h-56 w-full rounded-xl object-cover shadow-xl transition"
       />
 

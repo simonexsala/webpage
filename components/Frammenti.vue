@@ -13,11 +13,14 @@
         </h2>
 
         <p class="mt-2 text-sm leading-relaxed text-gray-500">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-          dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-          sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-          voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-          Molestias explicabo corporis voluptatem?
+          Un personale schedario di frammenti selezionati dalle letture che nel bene 
+          &mdash; e nel male &mdash; hanno impressionato e fornito un contributo netto al mio vedere e vivere il mondo.
+          La raccolta comprende capitoli, saggi e brevi sezioni che trattano questioni filosofiche, politiche, 
+          religiose e culturali, con un occhio di riguardo anche per la poesia, la lirica, 
+          e qualsiasi altro pensiero degno di nota. 
+          Potrei anche non essere in accordo con il contenuto, ma ogni passaggio che risulti
+          significativo troverà sempre posto.
+          Con lo spirito greco di Eraclito e Omero e il ritorno ai valori dell'antichità di Schopenhauer e Nietzsche a far da numi tutelari.
         </p>
 
         <div class="flex flex-wrap justify-center mt-8">

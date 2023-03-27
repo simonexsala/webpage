@@ -20,16 +20,5 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@headlessui/vue', '@tailwindcss/typography'],
   },
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        path: '/scritti',
-        component: resolve(__dirname, 'pages/scritti/index.vue'),
-        meta: {
-          title: 'Scritti',
-          search: true,
-        },
-      });
-    },
-  },
+
 })
