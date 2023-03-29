@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header @showSearchbar="showSearchbar = !showSearchbar" />
+    <Header @showSearchbar="showSearchbar = !showSearchbar" @hideSearchbar="showSearchbar = false" />
     <transition
       enter-active-class="transition ease-out duration-1000"
       enter-from-class="opacity-0"

@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container flex-1 max-w-3xl mt-4 px-6 mx-auto space-y-2 xl:max-w-8xl prose prose-img:rounded-xl prose-h1:text-center prose-h1:mb-4 prose-h1:mt-4 prose-p:indent-6 prose-p:my-0">
+    <div class="container flex-1 max-w-3xl mt-4 px-6 mx-auto space-y-2 xl:max-w-8xl prose prose-img:rounded-xl prose-h1:text-center prose-h1:mb-4 prose-h1:mt-4 prose-p:indent-4 prose-p:my-0 prose-quoteless">
       <ContentDoc>
         <template #default="{ doc }">
           <NuxtImg loading="lazy" :src="`${doc.coverImage}`" class="mb-0 mx-auto" />
@@ -39,3 +39,20 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.doc.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.doc.description },
+        { hid: 'og:title', property: 'og:title', content: this.doc.title },
+        { hid: 'og:description', property: 'og:description', content: this.doc.description },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.doc.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.doc.description }
+      ]
+    }
+  }
+}
+</script>

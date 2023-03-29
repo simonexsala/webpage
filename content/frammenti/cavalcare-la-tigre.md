@@ -12,7 +12,9 @@ addedDate: 2023/03/25
 
 # Cavalcare la tigre
 
-> Chi cavalca la tigre non può scendere
+::quote
+«Chi cavalca la tigre non può scendere».
+::
 
 Il ristagno della situazione interna italiana alla fine degli anni ‘50 spinge Evola verso soluzioni personali del problema della vita. Il suo interesse si sposta verso quei sentieri individuali lungo i quali si può attraversare incolumi la foresta pietrificata del mondo moderno. Cavalcare la tigre non sta in contraddizione con Gli uomini e le rovine o altri libri precedenti. La concezione di Evola è sempre la stessa: solo la prospettiva cambia. Questa prospettiva non è più sociale, ma individuale, non ottimistica, ma pessimistica.
 

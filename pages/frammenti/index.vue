@@ -1,5 +1,6 @@
 <script setup>
 const route = useRoute()
+const author = route.query.author
 
 const { data: scritti } = await useAsyncData('frammenti', () =>
   queryContent('/frammenti').sort({ addedDate: -1 }).find()
@@ -13,10 +14,6 @@ useHead({
     {
       name: 'description',
       content: description
-    },
-    {
-      name: 'search',
-      content: 'yes'
     },
   ]
 })
@@ -36,7 +33,7 @@ useHead({
               <NuxtImg :src="`${scritto.coverImage}`" alt="" class="object-cover object-center w-full rounded-xl h-72"
               />
               <div class="flex flex-col p-6 pt-2">
-                <div class="space-y-2">
+                <div class="space-y-1">
                   <div class="flex items-center gap-x-4 text-xs">
                     <time datetime="{{ scritto.year }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ scritto.year }}
