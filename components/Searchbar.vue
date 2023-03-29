@@ -39,7 +39,7 @@
         </div>
       </form>
 
-      <div class="mt-2 space-y-2">
+      <div class="space-y-2">
         <transition
           enter-active-class="transition duration-150 ease-out"
           enter-from-class="transform scale-95 opacity-0"
@@ -48,7 +48,7 @@
           leave-from-class="transform scale-100 opacity-100"
           leave-to-class="transform scale-95 opacity-0"
         >
-          <ul v-if="articles.length" class="rounded-lg">
+          <ul v-if="articles.length" class="mt-2 rounded-lg">
             <li v-for="article in articles">
               <div class="flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
                 <div class="flex-1 flex-col hover:bg-white hover:shadow-xl px-2 py-1 rounded-lg">
@@ -81,12 +81,14 @@
               </div>
             </li>
           </ul>
-          <p v-else-if="searched && !articles.length" class="items-center flex bg-gray-50 rounded-lg shadow-md flex-row gap-x-1 text-sm hover:shadow-xl text-gray-900">
-            Nessun risultato trovato
-            <button @click="searched = false" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              <Icon name="mdi:close" size="25" />
-            </button>
-          </p>
+          <div v-else-if="searched && !articles.length" class="items-center mt-2 flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
+            <p class="flex-1 hover:bg-white hover:shadow-xl px-2 py-2 rounded-lg">
+              Nessun risultato trovato
+            </p>
+              <button @click="searched = false" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+                <Icon name="mdi:close" size="25" />
+              </button>
+          </div>
         </transition>
       </div>
     </div>
