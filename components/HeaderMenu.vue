@@ -40,7 +40,7 @@
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/progetti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/recensioni" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
                 Recensioni
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
                   {{ numeroRecensioni }}

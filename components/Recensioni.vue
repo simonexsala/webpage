@@ -25,7 +25,7 @@
           <NuxtLink to="/recensioni">
             <button class="inline-block px-12 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
               Recensioni 
-              <Icon name="charm:arrow-right" />
+              <Icon name="material-symbols:arrow-forward" size="18" />
             </button>
           </NuxtLink>
         </div>
@@ -33,9 +33,3 @@
     </div>
   </article>
 </template>
-
-<script>
-export default {
-  name: 'Scritti'  
-}
-</script>

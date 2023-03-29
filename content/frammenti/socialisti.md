@@ -6,7 +6,7 @@ year: 1866
 section: Parte terza — sezione 5
 title: Socialisti
 description: «Ecco, Rodiòn. Sta' a sentire e dacci la tua opinione. La voglio. Ieri mi son fatto in quattro con loro, aspettandoti; avevo detto che saresti venuto... Eravamo partiti dalla concezione dei socialisti.
-field: cultura
+field: Cultura
 addedDate: 2023/03/29
 ---
 

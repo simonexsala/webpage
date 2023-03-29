@@ -38,11 +38,11 @@ useHead({
               />
               <div class="flex flex-col p-6 pt-2">
                 <div class="space-y-1">
-                  <div class="flex items-center gap-x-4 text-xs">
-                    <time datetime="{{ scritto.date }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
+                  <div class="flex items-center gap-x-2 text-xs">
+                    <time datetime="{{ scritto.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ formatDate(scritto.date) }}
                     </time>
-                    <span class="relative z-10 rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+                    <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
                       {{ scritto.field }}
                     </span>
                   </div>

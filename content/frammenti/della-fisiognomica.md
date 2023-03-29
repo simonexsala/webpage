@@ -6,7 +6,7 @@ year: 1851
 section: Capitolo 29 — Della fisiognomica
 title: Della fisiognomica
 description: Che l'aspetto esteriore ci dia una immagine dell'essere interno e che il viso esprima l'intero essere dell'uomo e lo riveli è un presupposto, il cui apriorismo, e quindi certezza, si manifesta nell'avidità generale che si rivela in ogni occasione, quando si tratta di vedere un individuo che si sia distinto per qualche cosa, nel bene o nel male, o che abbia fornito un'opera straordinaria, o, se il vederlo è precluso, si cerca di sapere almeno da altri quale sia il suo aspetto
-field: Filosofia
+field: Metafisica
 addedDate: 2023/03/27
 ---
 

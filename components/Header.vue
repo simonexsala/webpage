@@ -70,7 +70,7 @@ export default {
   },
   computed: {
     hasSearch() {
-      if(/^\/(scritti|frammenti|recensioni|progetti)(\/|$)/.test(this.$route.path)) {
+      if (/^\/(scritti|frammenti|recensioni|progetti)(?!\/)(\/|$)/.test(this.$route.path)) {
         return true
       } else {
         this.$emit('hideSearchbar')

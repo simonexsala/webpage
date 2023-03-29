@@ -3,14 +3,14 @@
     <div class="grid bg-gray-100 rounded-xl place-content-center shadow-md">
       <NuxtImg
         alt=""
-        src="scritti.jpg"
+        src="progetti.jpg"
         loading="lazy"
         class="h-56 w-full rounded-xl object-cover shadow-xl transition"
       />
 
       <div class="p-6">
         <h2 class="underline decoration-2 decoration-violet-300 text-lg font-medium text-gray-900">
-          Scritti
+          Progetti
         </h2>
 
         <p class="mt-2 text-sm leading-relaxed text-gray-500">
@@ -22,9 +22,9 @@
         </p>
 
         <div class="flex flex-wrap justify-center mt-8">
-          <NuxtLink to="/scritti">
+          <NuxtLink to="/progetti">
             <button class="inline-block px-12 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              Scritti 
+              Progetti 
               <Icon name="material-symbols:arrow-forward" size="18" />
             </button>
           </NuxtLink>
