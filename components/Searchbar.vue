@@ -32,7 +32,7 @@
               </transition>
             </Listbox>
           </div>
-          <input v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-black border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900" placeholder="Cerca...">
+          <input v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
           <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-pink-300">
             <Icon name="mdi-search" size="25" color="white"/>
           </button>
