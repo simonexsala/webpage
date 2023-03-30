@@ -17,20 +17,22 @@
           </div>
           <ContentRenderer :value="doc" />
           <hr class="w-48 h-0.5 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10">
-          <p class="text-sm leading-relaxed text-gray-500">
-            <span>
-              {{ doc.author }}, 
-            </span>
-            <span>
-              {{ doc.book }} 
-            </span>
-            <span class="italic">
-              ({{ doc.year }}). 
-            </span>
-            <span class="italic">
-              {{ doc.section }}.
-            </span>
-          </p>
+          <div class="not-prose">
+            <p class="text-sm text-gray-500">
+              <span>
+                {{ doc.author }}, 
+              </span>
+              <span>
+                {{ doc.book }} 
+              </span>
+              <span class="italic">
+                ({{ doc.year }}). 
+              </span>
+              <span class="italic">
+                {{ doc.section }}.
+              </span>
+            </p>
+          </div>
         </template>
         <template #not-found>
           <NotFound404 />

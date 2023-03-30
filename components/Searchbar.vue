@@ -33,9 +33,19 @@
             </Listbox>
           </div>
           <input v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
-          <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-pink-300">
-            <Icon name="mdi-search" size="25" color="white"/>
-          </button>
+          <transition            
+            enter-active-class="transition ease-in duration-500"
+            enter-from-class="opacity-0"
+            enter-to-class="opacity-100"
+            leave-active-class="transition ease-in-out duration-500"
+            leave-from-class="opacity-100"
+            leave-to-class="opacity-0"
+          >
+            <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-pink-300">
+              <Icon v-show="!searching" name="mdi-search" color="white" size="25" />
+              <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
+            </button>
+          </transition>
         </div>
       </form>
 
@@ -74,9 +84,19 @@
                 </div>
 
                 <NuxtLink :to="`${article._path}`" class="ml-auto py-1">
-                  <button class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-                    <Icon name="material-symbols:arrow-forward" size="25" />
-                  </button>
+                  <transition            
+                    enter-active-class="transition ease-in duration-500"
+                    enter-from-class="opacity-0"
+                    enter-to-class="opacity-100"
+                    leave-active-class="transition ease-in-out duration-500"
+                    leave-from-class="opacity-100"
+                    leave-to-class="opacity-0"
+                  >
+                    <button @click="searching = true" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+                      <Icon v-show="!searching" name="material-symbols:arrow-forward" size="25" />
+                      <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
+                    </button>
+                  </transition>
                 </NuxtLink>
               </div>
             </li>
@@ -111,11 +131,14 @@
   const query = ref('')
   const articles = ref([])
   const searched = ref(false)
+  const searching = ref(false)
   const route = useRoute()
 
   async function search() {
+    searching.value = true
     if (!query.value) {
       articles.value = '0'
+      searching.value = false
       return
     }
 
@@ -131,5 +154,6 @@
     else
       articles.value = await queryContent(path).where({ 'author': { $regex: new RegExp(query.value, 'i') } }).find();
     searched.value = true
+    searching.value = false
   }
 </script>

@@ -12,6 +12,7 @@ addedDate: 2023/03/18
 
 # La pelle dello spettro
 
+::poetry
 Trascino la mia speranza con il mio sacco di chiodi,
 
 trascino la mia speranza strangolata ai tuoi piedi,
@@ -20,7 +21,7 @@ tu che ancora non sei,
 
 e io che non sono più.
 
-<br/> 
+<br />
 
 Trascino un sacco di chiodi sul greto del fuoco
 
@@ -53,3 +54,4 @@ e interamente bianco vengo a te,
 la mia nuova pelle da fantasma
 
 già freme alla tua aria.  
+::
