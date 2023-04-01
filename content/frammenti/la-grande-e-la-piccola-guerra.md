@@ -8,6 +8,7 @@ title: La grande e la piccola guerra
 description: Non deve sembrar strano che, dopo di aver esaminato un gruppo di tradizioni occidentali relative alla guerra sacra, cioè alla guerra come valore spirituale, ci proponiamo ora di esaminare questo stesso concetto così come è stato formulato sulla base della tradizione islamica.
 field: Metafisica
 addedDate: 2023/03/28
+readingTime: 9 minuti
 ---
 
 # La grande e la piccola guerra

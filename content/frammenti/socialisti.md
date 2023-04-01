@@ -5,9 +5,10 @@ book: Delitto e Castigo
 year: 1866
 section: Parte terza — sezione 5
 title: Socialisti
-description: «Ecco, Rodiòn. Sta' a sentire e dacci la tua opinione. La voglio. Ieri mi son fatto in quattro con loro, aspettandoti; avevo detto che saresti venuto... Eravamo partiti dalla concezione dei socialisti.
+description: «Sai, amico mio, che dopo la serata di ieri, da te, la testa mi... mi sento davvero a pezzi», fece ridendo a Razumichin, con tutt'altro tono rispetto a prima. «Be', vi siete divertiti? Io sono dovuto andar via nel momento più interessante... Chi è che ha avuto la meglio alla fine?»
 field: Cultura
 addedDate: 2023/03/29
+readingTime: 4 minuti
 ---
 
 # Socialisti

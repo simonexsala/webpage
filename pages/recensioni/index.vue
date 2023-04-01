@@ -1,6 +1,4 @@
 <script setup>
-const route = useRoute()
-
 const { data: scritti } = await useAsyncData('recensioni', () =>
   queryContent('/recensioni').sort({ addedDate: -1 }).find()
 )
@@ -45,13 +43,13 @@ useHead({
                     <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
                       {{ scritto.genre }}
                     </span>
-                    <span class="rounded-full bg-pink-300 py-1.5 px-3 font-medium text-white">
+                    <span class="rounded-full bg-rose-300 py-1.5 px-3 font-medium text-white">
                       {{ scritto.year }}
                     </span>
                   </div>
 
                   <h2 class="text-lg font-medium text-gray-900">
-                    {{ scritto.book }}
+                    {{ scritto.title }}
                   </h2>
                   <h3 class="italic text-gray-900">
                     {{ scritto.author }}
@@ -59,6 +57,9 @@ useHead({
                   <p class="text-sm leading-relaxed text-gray-500 line-clamp-3">
                     {{ scritto.description }}
                   </p>
+                  <span class="italic text-xs bg-gray-100 rounded-xl px-2 py-0.5 text-gray-500 justify-center">
+                    Lettura di {{ scritto.readingTime }}
+                  </span>
                 </div>
               </div>
             </NuxtLink>

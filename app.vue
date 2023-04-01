@@ -1,9 +1,30 @@
 <template>
-	<div class="antialiased">
-    <NuxtLayout>
+	<div class="antialiased selection:bg-violet-300 selection:text-white">
+    <Header @showSearchbar="showSearchbar = !showSearchbar" @hideSearchbar="showSearchbar = false" />
+    <transition
+      enter-active-class="transition ease-out duration-1000"
+      enter-from-class="opacity-0"
+      enter-to-class="opacity-100"
+      leave-active-class="transition duration-400 ease-out"
+      leave-from-class="transform scale-100 opacity-100"
+      leave-to-class="transform scale-90 opacity-0"
+    >
+      <Searchbar v-if="showSearchbar" />
+    </transition>
       <div class="mt-2 mb-2 flex flex-col min-h-screen space-y-6">
+        <NuxtLoadingIndicator :height="2" :color="purple" />
         <NuxtPage />
       </div>
-    </NuxtLayout>
+    <Footer />
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showSearchbar: false
+    }
+  }
+}
+</script>

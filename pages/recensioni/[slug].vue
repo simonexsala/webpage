@@ -11,14 +11,14 @@ const formatDate = (date) => {
       <ContentDoc>
         <template #default="{ doc }">
           <NuxtImg :src="`${doc.coverImage}`" class="mb-0" />
-          <div class="flex items-center px-6 gap-x-2 text-xs">
-            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
+          <div class="flex items-center px-6 gap-x-2 text-xs ">
+            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 hover:shadow-lg select-none">
               {{ formatDate(doc.addedDate) }}
             </time>
-            <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+            <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white hover:shadow-lg select-none">
               {{ doc.genre }}
             </span>
-            <span class="rounded-full bg-pink-300 py-1.5 px-3 font-medium text-white">
+            <span class="rounded-full bg-rose-300 py-1.5 px-3 font-medium text-white hover:shadow-lg select-none">
               {{ doc.year }}
             </span>
           </div>

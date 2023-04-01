@@ -3,7 +3,7 @@
     <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-6 xl:max-w-5xl">
       <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
         <span>In quale senso una cultura è</span> 
-        <span class="text-transparent bg-clip-text bg-gradient-to-l from-violet-400 to-pink-300">
+        <span class="text-transparent bg-clip-text bg-gradient-to-l from-violet-300 to-rose-300">
           più alta?
         </span>
       </h1>

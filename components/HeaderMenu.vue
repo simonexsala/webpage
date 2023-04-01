@@ -1,7 +1,7 @@
 <template>
     <Menu as="div" class="inline-block">
       <MenuButton
-        class="rounded-xl bg-gray-900 p-2 hover:bg-pink-300" 
+        class="rounded-xl bg-gray-900 p-2 hover:bg-rose-300" 
       >
         <Icon name="mdi:menu" size="25" color="white" />
       </MenuButton>

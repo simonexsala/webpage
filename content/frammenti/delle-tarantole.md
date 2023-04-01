@@ -8,6 +8,7 @@ title: Delle tarantole
 description: «Ecco, questa è la caverna della tarantola! Vuoi proprio vederla? Qui pende la sua rete. Toccala, perchè vibri. Eccola che giunge volonterosa; benvenuta tarantola!
 field: Filosofia 
 addedDate: 2023/03/23
+readingTime: 5 minuti
 ---
 
 # Delle tarantole

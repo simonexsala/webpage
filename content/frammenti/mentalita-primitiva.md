@@ -8,6 +8,7 @@ title: Mentalità primitiva
 description: La mentalità primitiva si distingue da quella civilizzata soprattutto per il fatto che in essa la coscienza è assai meno sviluppata in termini di estensione e intensità. In particolare, funzioni come il pensare, il volere ecc. non sono ancora differenziate, sono bensì preconsce;
 field: Psicologia
 addedDate: 2022/12/12
+readingTime: 3 minuti
 ---
 
 # Mentalità primitiva

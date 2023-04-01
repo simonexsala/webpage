@@ -2,9 +2,10 @@
   <header aria-label="Site Header" class="shadow-sm">
     <div class="mx-auto max-w-screen-xl px-4 py-2">
       <div class="flex items-center justify-between gap-4 lg:gap-8">
-        <NuxtLink to="/" >
-          <div class="w-32 text-center h-10 select-none font-bold bg-gradient-to-l from-violet-300 to-pink-300 px-3 py-2 rounded-xl hover:bg-violet-300 text-white">
-            Simone Sala
+        <NuxtLink to="/" class="hover:bg-violet-300 rounded-xl">
+          <div class="h-10 text-center select-none font-bold px-2 py-1 rounded-xl">
+            <NuxtImg src="avatar.jpg" alt="" class="h-8 mx-auto rounded-full" 
+            />
           </div>
         </NuxtLink>
 
@@ -13,16 +14,16 @@
             aria-label="Site Nav"
             class="hidden md:flex gap-2 justify-centertext-gray-900 text-sm font-medium h-10 items-center"
           >
-            <NuxtLink to="/scritti" class="text-gray-900 hover:bg-pink-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/scritti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
               Scritti
             </NuxtLink>
-            <NuxtLink to="/frammenti" class="text-gray-900 hover:bg-pink-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/frammenti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
               Frammenti
             </NuxtLink>
-            <NuxtLink to="/recensioni" class="text-gray-900 hover:bg-pink-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/recensioni" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
               Recensioni
             </NuxtLink>
-            <NuxtLink to="/progetti" class="text-gray-900 hover:bg-pink-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/progetti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
               Progetti
             </NuxtLink>
           </nav>
@@ -40,7 +41,7 @@
             leave-to-class="opacity-0"
           >
             <div v-show="hasSearch" class="h-10 w-10">
-              <button class="rounded-xl p-2 hover:bg-pink-300" :class="searchbarOpen ? 'bg-pink-600' : 'bg-violet-300'" @click="toggleSearchbar">
+              <button class="rounded-xl p-2 hover:bg-violet-300" :class="searchbarOpen ? 'bg-rose-300' : 'bg-violet-300'" @click="toggleSearchbar">
                 <Icon v-show="!searchbarOpen" name="mdi:search" size="25" color="white"/>
                 <Icon v-show="searchbarOpen" name="mdi:close" size="25" color="white"/>
               </button>
@@ -83,5 +84,5 @@ export default {
 </script>
 
 <style>
-.router-link-active { border-radius: 0.75rem; background-color: #C4B5FD; color: white; }
+.router-link-active { border-radius: 0.75rem; background-color: #c4b5fd; color: white; }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-screen-xl px-4 mt-2">
-    <div class="bg-gray-100 rounded-lg p-2">
+    <div class="ring-1 ring-black ring-opacity-5 shadow-xl rounded-lg p-2">
       <form>
         <div class="flex w-full">
           <div class="relative text-left">
@@ -41,7 +41,7 @@
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
           >
-            <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-pink-300">
+            <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-rose-300">
               <Icon v-show="!searching" name="mdi-search" color="white" size="25" />
               <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
             </button>
@@ -58,10 +58,10 @@
           leave-from-class="transform scale-100 opacity-100"
           leave-to-class="transform scale-95 opacity-0"
         >
-          <ul v-if="articles.length" class="mt-2 rounded-lg">
+          <ul  v-if="articles.length" class="mt-2 rounded-lg">
             <li v-for="article in articles">
               <div class="flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
-                <div class="flex-1 flex-col hover:bg-white hover:shadow-xl px-2 py-1 rounded-lg">
+                <div class="flex-1 flex-col hover:bg-gray-100 px-2 py-1 rounded-lg group">
                   <div>
                     <span class="italic">
                     {{ article.author.split(' ').slice(-1)[0] }},
@@ -71,14 +71,17 @@
                     </span>
                   </div>
                   <div class="flex items-center gap-x-2 text-xs">
-                    <time datetime="`{{ article.year }}`" class="rounded-full bg-violet-300 px-3 font-medium text-white">
+                    <time datetime="`{{ article.year }}`" class="rounded-full bg-violet-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.year }}
                     </time>
-                    <span v-if="article.book.length < 31" class="rounded-full bg-violet-300 px-3 font-medium text-white">
+                    <span class="hidden sm:flex rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book }}
                     </span>
-                    <span v-else class="rounded-full bg-violet-300 px-3 font-medium text-white">
-                      {{ article.book.substring(0,31) + "..." }}
+                    <span v-if="article.book.length < 28" class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                      {{ article.book }}
+                    </span>
+                    <span v-else class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                      {{ article.book.substring(0,28) + "..." }}
                     </span>
                   </div>
                 </div>
@@ -149,10 +152,20 @@
       path = '/scritti'
     }
 
-    if (selectedOption.value.id == 0)
-      articles.value = await queryContent(path).where({ 'title': { $regex: new RegExp(query.value, 'i') } }).find();
-    else
-      articles.value = await queryContent(path).where({ 'author': { $regex: new RegExp(query.value, 'i') } }).find();
+    if (selectedOption.value.id == 0) {
+      articles.value = await queryContent(path).where({
+        'title': {
+          $regex: new RegExp(query.value, 'i') 
+        }
+      }).find();
+    } else {
+      articles.value = await queryContent(path).where({ 
+        'author': {
+          $regex: new RegExp(query.value, 'i') 
+        } 
+      }).find();
+    }
+
     searched.value = true
     searching.value = false
   }

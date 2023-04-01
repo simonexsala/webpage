@@ -8,6 +8,7 @@ title: La pelle dello spettro
 description: Trascino la mia speranza con il mio sacco di chiodi, / trascino la mia speranza strangolata ai tuoi piedi, / tu che ancora non sei, / e io che non sono più.
 field: Poesia
 addedDate: 2023/03/18
+readingTime: 2 minuti
 ---
 
 # La pelle dello spettro

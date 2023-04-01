@@ -8,6 +8,7 @@ title: Empedocle
 description: C'era Empedocle, un filosofo e uomo di grande respiro. Lui si tuffò nel vulcano Etna perché sapeva che sarebbe rinato come dio. Ora immagina te stesso sul bordo dell'Etna. È secco e sabbioso.  
 field: Filosofia 
 addedDate: 2023/03/24
+readingTime: 2 minuti
 ---
 
 # Empedocle

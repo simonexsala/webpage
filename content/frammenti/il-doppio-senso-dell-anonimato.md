@@ -8,6 +8,7 @@ title: Il doppio senso dell'anonimato
 description: A proposito della concezione tradizionale dei mestieri, che fa tutt'uno con quella delle arti, dobbiamo segnalare un'altra questione importante. Le opere dell'arte tradizionale, ad esempio quella medioevale, sono generalmente anonime, ed è del tutto recente il tentativo, frutto
 field: Filosofia
 addedDate: 2023/03/25
+readingTime: 10 minuti
 ---
 
 # Il doppio senso dell'anonimato

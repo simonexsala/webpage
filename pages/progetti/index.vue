@@ -1,6 +1,4 @@
 <script setup>
-const route = useRoute()
-
 const { data: scritti } = await useAsyncData('progetti', () =>
   queryContent('/progetti').sort({ date: -1 }).find()
 )

@@ -8,6 +8,7 @@ title: Società del controllo
 description: Foucault ha collocato le società disciplinari tra il Diciottesimo e il Diciannovesimo secolo; giungono al loro apogeo all'inizio del Ventesimo. Procedono all'organizzazione di grandi ambienti di reclusione.
 field: Filosofia
 addedDate: 2023/02/12
+readingTime: 10 minuti
 ---
 
 # Società del controllo

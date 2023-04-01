@@ -4,19 +4,22 @@
       <ContentDoc>
         <template #default="{ doc }">
           <NuxtImg loading="lazy" :src="`${doc.coverImage}`" class="mb-0 mx-auto" />
-          <div class="flex items-center px-6 gap-x-2 text-xs">
-            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
+          <div class="flex items-center  gap-x-2 text-xs">
+            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none hover:shadow-lg">
               {{ doc.year }}
             </time>
-            <span v-if="doc.book.length < 31" class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+            <span class="hidden sm:flex rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
               {{ doc.book }}
             </span>
-            <span v-else class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
-              {{ doc.book.substring(0,31) + "..." }}
+            <span v-if="doc.book.length < 26" class="sm:hidden rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
+              {{ doc.book }}
+            </span>
+            <span v-else class="sm:hidden rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+              {{ doc.book.substring(0,23) + "..." }}
             </span>
           </div>
           <ContentRenderer :value="doc" />
-          <hr class="w-48 h-0.5 mx-auto my-4 bg-gray-300 border-0 rounded md:my-10">
+          <hr class="w-48 h-0.5 mx-auto bg-gray-300 border-0 rounded">
           <div class="not-prose">
             <p class="text-sm text-gray-500">
               <span>

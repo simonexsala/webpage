@@ -8,6 +8,7 @@ title: Progresso nel senso mio
 description: Anch'io parlo di «ritorno alla Natura», sebbene questo propriamente non sia un tornare indietro ma un salire in alto, in alto, verso l'alta, libera, magari terribile Natura e naturalezza, una Natura che gioca e può giocare coi grandi compiti... 
 field: Filosofia 
 addedDate: 2023/04/02
+readingTime: 2 minuti
 ---
 
 # Progresso nel senso mio
