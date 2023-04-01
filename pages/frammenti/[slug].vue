@@ -17,6 +17,9 @@
             <span v-else class="sm:hidden rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
               {{ doc.book.substring(0,23) + "..." }}
             </span>
+            <span class="rounded-full bg-rose-300 py-1.5 px-3 font-medium text-white">
+              {{ doc.readingTime }}
+            </span>
           </div>
           <ContentRenderer :value="doc" />
           <hr class="w-48 h-0.5 mx-auto bg-gray-300 border-0 rounded">

@@ -77,11 +77,11 @@
                     <span class="hidden sm:flex rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book }}
                     </span>
-                    <span v-if="article.book.length < 28" class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book }}
                     </span>
                     <span v-else class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
-                      {{ article.book.substring(0,28) + "..." }}
+                      {{ article.book.substring(0,26) + "..." }}
                     </span>
                   </div>
                 </div>
@@ -129,6 +129,8 @@
   const options = [
     { id: 0, option: 'Titolo' },
     { id: 1, option: 'Autore' },
+    { id: 2, option: 'Libro' },
+    { id: 3, option: 'Anno' },
   ]
   const selectedOption = ref(options[0])
   const query = ref('')
@@ -158,9 +160,21 @@
           $regex: new RegExp(query.value, 'i') 
         }
       }).find();
-    } else {
+    } else if (selectedOption.value.id == 1) {
       articles.value = await queryContent(path).where({ 
         'author': {
+          $regex: new RegExp(query.value, 'i') 
+        } 
+      }).find();
+    } else if (selectedOption.value.id == 2) {
+      articles.value = await queryContent(path).where({ 
+        'book': {
+          $regex: new RegExp(query.value, 'i') 
+        } 
+      }).find();
+    } else if (selectedOption.value.id == 3) {
+      articles.value = await queryContent(path).where({ 
+        'year': {
           $regex: new RegExp(query.value, 'i') 
         } 
       }).find();

@@ -41,7 +41,7 @@
             leave-to-class="opacity-0"
           >
             <div v-show="hasSearch" class="h-10 w-10">
-              <button class="rounded-xl p-2 hover:bg-violet-300" :class="searchbarOpen ? 'bg-rose-300' : 'bg-violet-300'" @click="toggleSearchbar">
+              <button class="rounded-xl p-2 hover:bg-gray-900" :class="searchbarOpen ? 'bg-gray-900' : 'bg-violet-300'" @click="toggleSearchbar">
                 <Icon v-show="!searchbarOpen" name="mdi:search" size="25" color="white"/>
                 <Icon v-show="searchbarOpen" name="mdi:close" size="25" color="white"/>
               </button>
@@ -84,5 +84,5 @@ export default {
 </script>
 
 <style>
-.router-link-active { border-radius: 0.75rem; background-color: #c4b5fd; color: white; }
+.router-link-active { border-radius: 0.75rem; background-color: #c4b5fda0; color: white; }
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<div class="antialiased selection:bg-violet-300 selection:text-white">
+	<div class="antialiased selection:bg-violet-300/[.4]">
     <Header @showSearchbar="showSearchbar = !showSearchbar" @hideSearchbar="showSearchbar = false" />
     <transition
       enter-active-class="transition ease-out duration-1000"
@@ -11,7 +11,7 @@
     >
       <Searchbar v-if="showSearchbar" />
     </transition>
-      <div class="mt-2 mb-2 flex flex-col min-h-screen space-y-6">
+      <div class="mb-2 flex flex-col min-h-screen space-y-6">
         <NuxtLoadingIndicator :height="2" :color="purple" />
         <NuxtPage />
       </div>

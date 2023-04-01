@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container flex-1 max-w-3xl mt-2 px-6 mx-auto space-y-6 xl:max-w-5xl">
+    <div class="container flex-1 max-w-3xl px-6 mx-auto space-y-6 xl:max-w-5xl">
       <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
         <span>In quale senso una cultura è</span> 
         <span class="text-transparent bg-clip-text bg-gradient-to-l from-violet-300 to-rose-300">
@@ -10,7 +10,7 @@
 
       <div class="mt-4 grid grid-cols-1 md:grid-cols-2 md:gap-16">
         <div class="md:h-full mb-4 lg:mb-0">
-          <NuxtImg preload src="cat.jpg" class="rounded-xl" />
+          <NuxtImg src="cat.jpg" class="rounded-xl" />
         </div>
 
         <div class="xl:py-24">
