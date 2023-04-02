@@ -127,10 +127,11 @@
   } from '@headlessui/vue'
 
   const options = [
-    { id: 0, option: 'Titolo' },
+    { id: 0, option: 'Tutto' },
     { id: 1, option: 'Autore' },
-    { id: 2, option: 'Libro' },
-    { id: 3, option: 'Anno' },
+    { id: 2, option: 'Titolo' },
+    { id: 3, option: 'Libro' },
+    { id: 4, option: 'Anno' },
   ]
   const selectedOption = ref(options[0])
   const query = ref('')
@@ -156,7 +157,7 @@
 
     if (selectedOption.value.id == 0) {
       articles.value = await queryContent(path).where({
-        'title': {
+        'tags': {
           $regex: new RegExp(query.value, 'i') 
         }
       }).find();
@@ -168,11 +169,17 @@
       }).find();
     } else if (selectedOption.value.id == 2) {
       articles.value = await queryContent(path).where({ 
-        'book': {
+        'title': {
           $regex: new RegExp(query.value, 'i') 
         } 
       }).find();
     } else if (selectedOption.value.id == 3) {
+      articles.value = await queryContent(path).where({ 
+        'book': {
+          $regex: new RegExp(query.value, 'i') 
+        } 
+      }).find();
+    } else if (selectedOption.value.id == 4) {
       articles.value = await queryContent(path).where({ 
         'year': {
           $regex: new RegExp(query.value, 'i') 

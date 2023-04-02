@@ -12,7 +12,7 @@
       <Searchbar v-if="showSearchbar" />
     </transition>
       <div class="mb-2 flex flex-col min-h-screen space-y-6">
-        <NuxtLoadingIndicator :height="2" :color="purple" />
+        <NuxtLoadingIndicator color="#d8b4fe" :throttle="0" />
         <NuxtPage />
       </div>
     <Footer />

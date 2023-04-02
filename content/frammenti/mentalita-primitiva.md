@@ -9,6 +9,7 @@ description: La mentalità primitiva si distingue da quella civilizzata soprattu
 field: Psicologia
 addedDate: 2022/12/12
 readingTime: 3 minuti
+tags: carl gustav jung, gli archetipi dell'inconscio collettivo, psicologia dell'archetipo del fanciullo, mentalità primitiva, psicologia, 1934, svizzera
 ---
 
 # Mentalità primitiva

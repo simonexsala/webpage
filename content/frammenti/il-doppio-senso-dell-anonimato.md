@@ -8,7 +8,8 @@ title: Il doppio senso dell'anonimato
 description: A proposito della concezione tradizionale dei mestieri, che fa tutt'uno con quella delle arti, dobbiamo segnalare un'altra questione importante. Le opere dell'arte tradizionale, ad esempio quella medioevale, sono generalmente anonime, ed è del tutto recente il tentativo, frutto
 field: Filosofia
 addedDate: 2023/03/25
-readingTime: 10 minuti
+readingTime: 13 minuti
+tags: rene guenon, il regno della quantità e i segni dei tempi, il doppio senso dell'anonimato, filosofia, 1945, francia
 ---
 
 # Il doppio senso dell'anonimato

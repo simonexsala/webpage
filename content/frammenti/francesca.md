@@ -9,6 +9,7 @@ description: You came in out of the night / and there were flowers in your hands
 field: Poesia
 addedDate: 2023/03/22
 readingTime: 1 minuto
+tags: ezra pound, poesia, francesca, exultations, 1909, amore
 ---
 
 # Francesca

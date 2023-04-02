@@ -8,7 +8,8 @@ title: Uomo e donna
 description: È compito della tradizione — lo si ripete — scavare dei saldi alvei, a che le correnti caotiche della vita fluiscano nella direzione giusta. Liberi, sono coloro che assumendo questa direzione tradizionale non la sentono come imposta,
 field: Società 
 addedDate: 2023/03/21
-readingTime: 7 minuti
+readingTime: 9 minuti
+tags: julius evola, rivolta contro il mondo moderno, uomo e donna, femminismo, 1934, metafisica, filosofia, società, italia
 ---
 
 # Uomo e donna

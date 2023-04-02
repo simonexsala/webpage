@@ -9,6 +9,7 @@ description: «Sai, amico mio, che dopo la serata di ieri, da te, la testa mi...
 field: Cultura
 addedDate: 2023/03/29
 readingTime: 4 minuti
+tags: fedor dostoevskij, dostojevski, delitto e castigo, socialisti, società, cultura, 1866, russia
 ---
 
 # Socialisti

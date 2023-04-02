@@ -9,6 +9,7 @@ description: «Ecco, questa è la caverna della tarantola! Vuoi proprio vederla?
 field: Filosofia 
 addedDate: 2023/03/23
 readingTime: 5 minuti
+tags: friedrich nietzsche, così parlò zarathustra, delle tarantole, società, filosofia, uguaglianza, 1885, germania
 ---
 
 # Delle tarantole

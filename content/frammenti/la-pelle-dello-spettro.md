@@ -9,6 +9,7 @@ description: Trascino la mia speranza con il mio sacco di chiodi, / trascino la 
 field: Poesia
 addedDate: 2023/03/18
 readingTime: 2 minuti
+tags: rene daumal, controcielo, la pelle dello spettro, poesia, 1936, francia
 ---
 
 # La pelle dello spettro

@@ -8,7 +8,8 @@ title: Spiritualità della montagna
 description: Parlare della spiritualità della montagna, oggi, non è troppo agevole, soprattutto per la ragione che la cosa ormai troppo spesso ha assunto i caratteri di un luogo comune. Forse in poche epoche come nell’attuale si è parlato tanto di «spirito» e si è stati propensi ad introdurre lo «spirito» un po’ dappertutto, quasi come una specie di salsa destinata a condire compiacentemente ogni sorta di ingredienti
 field: Metafisica
 addedDate: 2023/03/24
-readingTime: 13 minuti
+readingTime: 15 minuti
+tags: julius evola, meditazioni delle vette, spiritualità della montagna, 1936, metafisica, filosofia, italia
 ---
 
 # Spiritualità della montagna

@@ -8,7 +8,8 @@ title: Pagani e Cristiani
 description: Pensando dunque donde possa nascere, che, in quegli tempi antichi, i popoli fossero più amatori della libertà che in questi; credo nasca da quella medesima cagione che fa ora gli uomini manco forti
 field: Religione
 addedDate: 2023/03/21
-readingTime: 5 minuti
+readingTime: 7 minuti
+tags: niccolo, nicolo, macchiavelli, machiavelli, discorsi, pagani e cristiani, religione, 1519, italia
 ---
 
 # Pagani e Cristiani

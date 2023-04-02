@@ -8,7 +8,8 @@ title: La morte di Euforbo
 description: Non sfuggì al figlio di Atreo, a Menelao caro ad Ares, che Patroclo era stato abbattuto dai Teucri in battaglia. Si fece avanti nelle prime file, rivestito di bronzo lucente, e gli si mise accanto, come accanto al vitello la madre tremante
 field: Lirica
 addedDate: 2023/03/31
-readingTime: 3 minuti
+readingTime: 4 minuti
+tags: omero, iliade, 750 a.C., libro xvii, la lotta per patroclo, la morte di euforbo, lirica, poema, antica grecia
 ---
 
 # La morte di Euforbo

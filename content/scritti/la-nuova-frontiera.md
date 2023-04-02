@@ -5,6 +5,7 @@ title: La nuova frontiera
 description: I governi e le megacorporazioni, due entità che nel futuro non saranno più soggette ad alcun tipo di distinzione, tanto che una parola le potrà definire entrambe, hanno architettato nel corso di decenni, consapevolmente o meno, gli strumenti che possano garantire loro il monopolio nell'esercitazione del potere atto alla sottomissione dell'individuo. 
 date: 2022/11/5 
 field: Filosofia 
+tags:
 ---
 
 

@@ -9,6 +9,7 @@ description: Anch'io parlo di «ritorno alla Natura», sebbene questo propriamen
 field: Filosofia 
 addedDate: 2023/04/02
 readingTime: 2 minuti
+tags: friedrich nietzsche, il crepuscolo degli idoli, scorrerie di un inattuale, filosofia, società, natura, rousseau, 1888, germania
 ---
 
 # Progresso nel senso mio

@@ -9,6 +9,7 @@ description: Il ristagno della situazione interna italiana alla fine degli anni 
 field: Filosofia
 addedDate: 2023/03/25
 readingTime: 13 minuti
+tags: adriano romualdi, julius evola, cavalcare la tigre, 1968, società, filosofia, italia
 ---
 
 # Cavalcare la tigre

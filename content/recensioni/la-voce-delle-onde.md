@@ -7,6 +7,7 @@ year: 1954
 description: Il tema non è inedito, un primo amore giovanile. Ma la forza di Mishima sta nella purezza idilliaca con cui dipinge a vividi colori la primavera dei sentimenti, dall'innocenza di chi ancora deve scoprire un mondo fino all'eroismo di chi è disposto anche alla morte pur di conquistare, consapevolmente o meno, quel varco di meraviglia che ha visto scintillare a portata di mano
 addedDate: 2023/04/25
 readingTime: 2 minuti
+tags: yukio mishima, romanzo, la voce delle onde, 1954, giappone, amore
 ---
 
 # La voce delle onde

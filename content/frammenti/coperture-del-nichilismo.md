@@ -8,7 +8,8 @@ title: Coperture del nichilismo
 description: Abbiamo giudicato or ora importante l'indifferenza già ostentata da certa gioventù in crisi per le prospettive della rivoluzione sociale. In relazione a ciò, sarà opportuno ampliare alquanto gli orizzonti mettendo in evidenza quel particolare genere di evasione e di anestetizzazione di una umanità a cui è venuto meno il senso dell'esistenza, che si cela appunto nelle varietà del mito economico-sociale moderno
 field: Società
 addedDate: 2023/04/01
-readingTime: 8 minuti
+readingTime: 10 minuti
+tags: julius evola, cavalcare la tigre, coperture del nichilismo, il mito economico-sociale e la contestazione, 1961, economia, società, filosofia, italia
 ---
 
 # Coperture del nichilismo

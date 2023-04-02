@@ -9,6 +9,7 @@ description: C'era Empedocle, un filosofo e uomo di grande respiro. Lui si tuff√
 field: Filosofia 
 addedDate: 2023/03/24
 readingTime: 2 minuti
+tags: bronze age pervert, bronze age mindset, empedocle, filosofia, mitologia, 2018, antica grecia
 ---
 
 # Empedocle
