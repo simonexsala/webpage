@@ -22,10 +22,9 @@ useHead({
       <div>
         <h2 class="underline decoration-2 decoration-violet-300 text-3xl font-extrabold">Progetti</h2>
       </div>
-
       <div class="grid justify-center grid-cols-1 gap-4 sm:grid-cols-2 mt-6 ">
         <div v-for="scritto in scritti" :key="scritto._id">
-          <div class="max-w-sm rounded-xl mx-auto group hover:shadow-xl focus:no-underline">
+          <div class="max-w-sm rounded-xl mx-auto group hover:shadow-md focus:no-underline">
             <NuxtLink :to="scritto._path">
               <NuxtImg :src="`${scritto.coverImage}`" alt="" class="object-cover object-center w-full rounded-xl h-72"
               />

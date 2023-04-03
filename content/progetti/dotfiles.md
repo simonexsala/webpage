@@ -5,6 +5,7 @@ title: .dotfiles
 description: I file di configurazione del mio sistema Linux con i3, un gestore di finestre affiancate. Diversi componenti sono stati scritti in shell script da me o personalizzati secondo i miei criteri estetici
 addedDate: 2022/10/22
 field: Informatica
+tags: dotfiles, ., linux, informatica
 ---
 
 # .dotfiles

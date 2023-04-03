@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-screen-xl px-4 mt-2">
-    <div class="ring-1 ring-black ring-opacity-5 shadow-xl rounded-lg p-2">
+    <div class="ring-1 ring-black ring-opacity-5 shadow-md rounded-lg p-2">
       <form>
         <div class="flex w-full">
           <div class="relative text-left">
@@ -58,7 +58,7 @@
           leave-from-class="transform scale-100 opacity-100"
           leave-to-class="transform scale-95 opacity-0"
         >
-          <ul  v-if="articles.length" class="mt-2 rounded-lg">
+          <ul v-if="articles.length" class="mt-2 rounded-lg">
             <li v-for="article in articles">
               <div class="flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
                 <div class="flex-1 flex-col hover:bg-gray-100 px-2 py-1 rounded-lg group">
@@ -153,6 +153,8 @@
       path = '/recensioni'
     } else if (route.path === '/scritti') {
       path = '/scritti'
+    } else if (route.path === '/progetti') {
+      path = '/progetti'
     }
 
     if (selectedOption.value.id == 0) {

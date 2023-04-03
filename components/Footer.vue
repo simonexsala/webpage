@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-6 mt-6">
+  <div class="flex flex-col p-6">
     <NuxtImg src="avatar.jpg" alt="" class="w-32 h-32 mx-auto rounded-full bg-violet-300 bg-opacity-30" 
     />
     <div class="text-center">
