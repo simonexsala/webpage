@@ -1,5 +1,5 @@
 ---
-coverImage: /frammenti/bap-doryphoros.jpg
+coverImage: /frammenti/bap.jpg
 author: Bronze Age Pervert
 book: Bronze Age Mindset
 year: 2018

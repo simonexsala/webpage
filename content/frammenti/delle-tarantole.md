@@ -1,5 +1,5 @@
 ---
-coverImage: /frammenti/nietzsche-young.jpg
+coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Così parlò Zarathustra 
 year: 1885 

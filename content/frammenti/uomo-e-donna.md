@@ -1,5 +1,5 @@
 ---
-coverImage: /frammenti/evola-young.jpg
+coverImage: /frammenti/evola.jpg
 author: Julius Evola
 book: Rivolta contro il mondo moderno
 year: 1934

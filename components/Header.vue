@@ -12,18 +12,18 @@
         <div class="h-10">
           <nav
             aria-label="Site Nav"
-            class="hidden md:flex gap-2 justify-centertext-gray-900 text-sm font-medium h-10 items-center"
+            class="hidden md:flex gap-4 text-gray-900 text-sm font-medium h-10 items-center"
           >
-            <NuxtLink to="/scritti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/scritti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Scritti
             </NuxtLink>
-            <NuxtLink to="/frammenti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/frammenti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Frammenti
             </NuxtLink>
-            <NuxtLink to="/recensioni" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/recensioni" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Recensioni
             </NuxtLink>
-            <NuxtLink to="/progetti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-2.5 py-1.5">
+            <NuxtLink to="/progetti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Progetti
             </NuxtLink>
           </nav>
@@ -40,8 +40,8 @@
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
           >
-            <div v-show="hasSearch" class="h-10 w-10">
-              <button class="rounded-xl p-2 hover:bg-gray-900" :class="searchbarOpen ? 'bg-gray-900' : 'bg-violet-300'" @click="toggleSearchbar">
+            <div v-show="hasSearch">
+              <button class="rounded-xl p-2 hover:bg-gray-900 h-10 w-10 flex items-center justify-center" :class="searchbarOpen ? 'bg-gray-900' : 'bg-violet-300'" @click="toggleSearchbar">
                 <Icon v-show="!searchbarOpen" name="mdi:search" size="25" color="white"/>
                 <Icon v-show="searchbarOpen" name="mdi:close" size="25" color="white"/>
               </button>
@@ -71,7 +71,7 @@ export default {
   },
   computed: {
     hasSearch() {
-      if (/^\/(scritti|frammenti|recensioni|progetti)(?!\/)(\/|$)/.test(this.$route.path)) {
+      if (/^\/(scritti|frammenti|recensioni|progetti)(\/)?$/.test(this.$route.path)) {
         return true
       } else {
         this.$emit('hideSearchbar')

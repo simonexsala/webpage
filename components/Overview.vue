@@ -7,7 +7,7 @@
     />
     <div class="shadow-md rounded-xl mt-2">
       <TabGroup>
-        <TabList class="flex space-x-1 sm:space-x-8 lg:space-x-16 rounded-xl bg-gray-100 p-1 py-1 sm:p-2">
+        <TabList class="flex gap-2 sm:gap-8 rounded-xl bg-gray-100/90 p-1 sm:p-2">
           <Tab
             v-for="category in Object.keys(categories)"
             as="template"
@@ -16,7 +16,7 @@
           >
             <button
               :class="[
-                'w-full select-none rounded-xl py-2 px-1 sm:px-4 text-xs sm:text-sm font-medium leading-5 text-gray-700 focus:outline-none',
+                'w-full select-none rounded-xl py-2 px-1 sm:px-4 text-xs sm:text-sm font-medium leading-5 text-gray-900 focus:outline-none',
                 selected
                   ? 'bg-white shadow'
                   : 'hover:bg-white hover:shadow-md',

@@ -32,7 +32,7 @@
               </transition>
             </Listbox>
           </div>
-          <input v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
+          <input v-focus v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
           <transition            
             enter-active-class="transition ease-in duration-500"
             enter-from-class="opacity-0"
@@ -41,7 +41,7 @@
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
           >
-            <button @click.prevent="search" class="items-center rounded-xl h-10 p-2 bg-violet-300 hover:bg-rose-300">
+            <button @click.prevent="search" class="flex items-center justify-center rounded-xl h-10 w-10 p-2 bg-violet-300 hover:bg-rose-300">
               <Icon v-show="!searching" name="mdi-search" color="white" size="25" />
               <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
             </button>
@@ -139,6 +139,10 @@
   const searched = ref(false)
   const searching = ref(false)
   const route = useRoute()
+
+  const vFocus = {
+    mounted: (el) => el.focus()
+  }
 
   async function search() {
     searching.value = true

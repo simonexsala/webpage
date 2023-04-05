@@ -1,9 +1,9 @@
 <template>
     <Menu as="div" class="inline-block">
       <MenuButton
-        class="rounded-xl bg-gray-900 p-2 hover:bg-violet-300" 
+        class="rounded-xl bg-gray-900 p-2 h-10 w-10 hover:bg-violet-300 flex items-center justify-center" 
       >
-        <Icon name="mdi:menu" size="25" color="white" />
+        <Icon name="material-symbols:menu" size="25" color="white" />
       </MenuButton>
 
       <transition

@@ -8,7 +8,7 @@ title: Notte, sole e muscoli
 description: Le opere letterarie scritte e divulgate in quel periodo erano dominate da un pensiero notturno, ma le loro notti si differenziavano dalle mie per l'assenza totale di estetismo. Quell'epoca tributava una ammirazione maggiore alle notti profonde che a quelle sfumate, e le dense tenebre del mio miele, in cui rimanevo immerso tanto a lungo da fanciullo, agli occhi altrui dovevano apparire del tutto inconsistenti.
 field: Filosofia 
 addedDate: 2023/04/01
-readingTime: 9 minuti
+readingTime: 13 minuti
 tags: yukio mishima, sole e acciaio, notte sole e muscoli, filosofia, 1970, giappone
 ---
 

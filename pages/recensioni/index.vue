@@ -39,10 +39,10 @@ useHead({
                     <time datetime="{{ scritto.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ formatDate(scritto.addedDate) }}
                     </time>
-                    <span class="rounded-full bg-violet-300 py-1.5 px-3 font-medium text-white">
+                    <span class="rounded-full bg-violet-300/80 py-1.5 px-3 font-medium text-white">
                       {{ scritto.genre }}
                     </span>
-                    <span class="rounded-full bg-rose-300 py-1.5 px-3 font-medium text-white">
+                    <span class="rounded-full bg-rose-300/80 py-1.5 px-3 font-medium text-white">
                       {{ scritto.year }}
                     </span>
                   </div>

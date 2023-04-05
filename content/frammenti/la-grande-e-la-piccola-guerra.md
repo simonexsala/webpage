@@ -1,5 +1,5 @@
 ---
-coverImage: /frammenti/evola-young.jpg
+coverImage: /frammenti/evola.jpg
 author: Julius Evola
 book: Metafisica della guerra
 year: 1935
