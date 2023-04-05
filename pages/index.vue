@@ -5,3 +5,16 @@
   </main>
 </template>
 
+<script setup>
+const title = ref('Home / Simone Sala')
+const description = ref('Simone Sala')
+useHead({
+  title,
+  meta: [
+    {
+      name: 'description',
+      content: description
+    },
+  ]
+})
+</script>

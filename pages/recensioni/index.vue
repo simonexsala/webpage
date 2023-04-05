@@ -8,7 +8,7 @@ const formatDate = (date) => {
   return new Date(date).toLocaleDateString('it-IT', options);
 }
 
-const title = ref('Recensioni')
+const title = ref('Recensioni / Simone Sala')
 const description = ref('Collezione di recensioni')
 useHead({
   title,

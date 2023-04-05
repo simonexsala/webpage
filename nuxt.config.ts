@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: '' },
       ],
     },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   components: true,
   modules: [

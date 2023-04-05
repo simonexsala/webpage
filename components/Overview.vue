@@ -27,7 +27,7 @@
           </Tab>
         </TabList>
 
-        <TabPanels class="">
+        <TabPanels>
           <TabPanel
             v-for="(posts, idx) in Object.values(categories)"
             :key="idx"
@@ -38,6 +38,7 @@
                 :key="post.id"
                 class="relative rounded-md px-6 py-4"
               >
+
               <div class="space-y-2">
                 <h2 class="underline decoration-2 decoration-violet-300 text-lg font-medium text-gray-900">
                   {{ post.name }}
@@ -100,3 +101,15 @@
     ],
   })
 </script>
+
+<style>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>

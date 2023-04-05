@@ -3,7 +3,7 @@ const { data: scritti } = await useAsyncData('frammenti', () =>
   queryContent('/frammenti').sort({ addedDate: -1 }).find()
 )
 
-const title = ref('Frammenti')
+const title = ref('Frammenti / Simone Sala')
 const description = ref('Collezione di frammenti')
 useHead({
   title,

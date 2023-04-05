@@ -12,18 +12,18 @@
         <div class="h-10">
           <nav
             aria-label="Site Nav"
-            class="hidden md:flex gap-4 text-gray-900 text-sm font-medium h-10 items-center"
+            class="hidden md:flex gap-4 text-gray-900 text-sm font-bold h-10 items-center"
           >
-            <NuxtLink to="/scritti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
+            <NuxtLink to="/scritti" class="hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Scritti
             </NuxtLink>
-            <NuxtLink to="/frammenti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
+            <NuxtLink to="/frammenti" class="hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Frammenti
             </NuxtLink>
-            <NuxtLink to="/recensioni" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
+            <NuxtLink to="/recensioni" class="hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Recensioni
             </NuxtLink>
-            <NuxtLink to="/progetti" class="text-gray-900 hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
+            <NuxtLink to="/progetti" class="hover:bg-violet-300 hover:text-white rounded-xl px-4 py-2">
               Progetti
             </NuxtLink>
           </nav>
@@ -71,11 +71,12 @@ export default {
   },
   computed: {
     hasSearch() {
+      this.$emit('hideSearchbar')
+      this.searchbarOpen = false 
+
       if (/^\/(scritti|frammenti|recensioni|progetti)(\/)?$/.test(this.$route.path)) {
         return true
       } else {
-        this.$emit('hideSearchbar')
-        this.searchbarOpen = false 
         return false
       }
     }
