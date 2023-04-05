@@ -19,12 +19,12 @@
         >
           <div class="px-2 py-1">
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Home
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/scritti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/scritti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Scritti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
                   {{ numeroScritti }}
@@ -32,7 +32,7 @@
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/frammenti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/frammenti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Frammenti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
                   {{ numeroFrammenti }}
@@ -40,7 +40,7 @@
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/recensioni" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/recensioni" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Recensioni
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
                   {{ numeroRecensioni }}
@@ -48,7 +48,7 @@
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/progetti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/progetti" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Progetti
                 <span class="shrink-0 rounded-full bg-gray-100 py-0.5 px-3 text-xs text-gray-600 group-hover:bg-gray-200 group-hover:text-gray-700">
                   {{ numeroProgetti }}
@@ -56,7 +56,7 @@
               </NuxtLink>
             </MenuItem>
             <MenuItem v-slot="{ close }">
-              <NuxtLink to="/biografia" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100">
+              <NuxtLink to="/biografia" @mouseup="close" class="select-none active:bg-gray-100 group flex items-center justify-between rounded-lg px-4 py-2 text-gray-700 text-sm font-medium hover:bg-gray-100" exact-active-class="bg-violet-300/70 text-white">
                 Biografia
               </NuxtLink>
             </MenuItem>

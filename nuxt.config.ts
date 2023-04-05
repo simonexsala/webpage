@@ -11,14 +11,36 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' }
   },
+
   components: true,
+
   modules: [
     'nuxt-icon',
     '@nuxt/content', 
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
   ],
+
   build: {
     transpile: ['@headlessui/vue', '@tailwindcss/typography'],
   },
+
+  image: {
+    presets: {
+      frammento: {
+        modifiers: {
+          format: 'jpg',
+          width: 800,
+          height: 600
+        }
+      },
+      recensione: {
+        modifiers: {
+          format: 'jpg',
+          width: 800,
+          height: 1100
+        }
+      },
+    }
+  }
 })

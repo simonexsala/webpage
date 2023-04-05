@@ -32,12 +32,11 @@ export default {
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all .4s;
+  transition: all .5s;
 }
 
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
-  filter: drop-shadow(0 25px 18px rgb(0 0 0 / 0.1));
 }
 </style>

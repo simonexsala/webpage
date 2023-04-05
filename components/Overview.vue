@@ -70,7 +70,7 @@
     Scritti: [
       {
         id: 1,
-        text: 'Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.',
+        text: "a",
         link: '/scritti',
         name: 'Scritti'
       },
@@ -78,7 +78,7 @@
     Frammenti: [
       {
         id: 2,
-        text: 'Un personale schedario di frammenti selezionati dalle letture che nel bene — e nel male — hanno impressionato e fornito un contributo netto al mio vedere e vivere il mondo. La raccolta comprende capitoli, saggi e brevi sezioni che trattano una moltitudine di questioni culturali, con un occhio di riguardo per tutto ciò che promuove la vita e la bellezza, la poesia e la lirica, e un pensare sempre più raffinato — noncurante delle piccole prospettive, dei meschini guadagni e della morale dello schiavo. Diverse sono le personalità che fanno da numi tutelari, ma ciò che anima la scelta dei testi si estende oltre il singolo individuo e va al di là di qualsiasi oppressura, sfidando tutte le corrosioni dello spirito.',
+        text: "Un personale schedario di frammenti selezionati da letture che nel bene — e nel male — hanno fornito un contributo netto a lacerare le nubi nere di tempesta che oscurano il mio vedere e vivere il mondo. La raccolta è destinata a espandere gli orizzonti delle questioni trattate, riflettendo mano a mano le nicchie di interesse in cui mi ritrovo ad indagare, e componendo un'immagine cruda del mio occhio culturale, mantenendo sempre la volontà di promuovere tutto ciò che è vita, verità e bellezza, declinate non solo in saggi filosofici e articoli politici, ma anche in poesia, arte e lirica. Unico obiettivo è un pensare sempre più raffinato — noncurante di piccole prospettive, di meschini guadagni e di una morale da schiavo. Diverse sono le personalità che fanno da numi tutelari, ma ciò che anima l'intima scelta dei testi si estende oltre il singolo individuo e va in territori fertili, dove non esistono oppressioni e debolezze, ma la fiamma della vita sfida e conquista tutte le corrosioni dello spirito moderno.",
         link: '/frammenti',
         name: 'Frammenti'
       },

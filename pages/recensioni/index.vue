@@ -31,7 +31,7 @@ useHead({
         <div v-for="scritto in scritti" :key="scritto._id">
           <div class="max-w-sm rounded-xl mx-auto group hover:shadow-md focus:no-underline">
             <NuxtLink :to="scritto._path">
-              <NuxtImg :src="`${scritto.coverImage}`" alt="" class="object-cover rounded-xl w-full"
+              <NuxtImg :src="`${scritto.coverImage}`" preset="recensione" loading="lazy" class="object-cover rounded-xl w-full"
               />
               <div class="flex flex-col p-6 pt-2">
                 <div class="space-y-1">
