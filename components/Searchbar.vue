@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto max-w-screen-xl px-4 mt-2">
-    <div class="ring-1 ring-black ring-opacity-5 shadow-md rounded-lg p-2">
+    <div class="bg-gray-50 rounded-lg p-2">
       <form>
         <div class="flex w-full">
           <div class="relative text-left">
@@ -41,7 +41,7 @@
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
           >
-            <button @click.prevent="search" class="flex items-center justify-center rounded-xl h-10 w-10 p-2 bg-violet-300 hover:bg-rose-300">
+            <button @click.prevent="search" class="flex items-center justify-center rounded-xl h-10 w-10 p-2 hover:bg-violet-300 bg-gray-900">
               <Icon v-show="!searching" name="mdi-search" color="white" size="25" />
               <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
             </button>
@@ -71,16 +71,16 @@
                     </span>
                   </div>
                   <div class="flex items-center gap-x-2 text-xs">
-                    <time datetime="`{{ article.year }}`" class="rounded-full bg-violet-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <time datetime="`{{ article.year }}`" class="rounded-full bg-gray-100 px-3 font-medium text-gray-600 group-hover:shadow-lg select-none">
                       {{ article.year }}
                     </time>
-                    <span class="hidden sm:flex rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span class="hidden sm:flex rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book }}
                     </span>
-                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book }}
                     </span>
-                    <span v-else class="sm:hidden rounded-full bg-rose-300 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span v-else class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
                       {{ article.book.substring(0,26) + "..." }}
                     </span>
                   </div>

@@ -8,16 +8,16 @@
             <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none hover:shadow-lg">
               {{ doc.year }}
             </time>
-            <span class="hidden sm:flex rounded-full bg-violet-300/80 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
+            <span class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
               {{ doc.book }}
             </span>
-            <span v-if="doc.book.length < 26" class="sm:hidden rounded-full bg-violet-300/80 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
+            <span v-if="doc.book.length < 26" class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
               {{ doc.book }}
             </span>
-            <span v-else class="sm:hidden rounded-full bg-violet-300/80 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
+            <span v-else class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
               {{ doc.book.substring(0,23) + "..." }}
             </span>
-            <span class="rounded-full bg-rose-300/80 py-1.5 px-3 font-medium text-white select-none hover:shadow-lg">
+            <span class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none hover:shadow-lg">
               {{ doc.readingTime }}
             </span>
           </div>

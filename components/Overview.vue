@@ -5,111 +5,156 @@
       src="clouds.jpg"
       class="rounded-xl object-cover transition w-full md:h-96"
     />
-    <div class="shadow-md rounded-xl mt-2">
-      <TabGroup>
-        <TabList class="flex gap-2 sm:gap-8 rounded-xl bg-gray-100/90 p-1 sm:p-2">
-          <Tab
-            v-for="category in Object.keys(categories)"
-            as="template"
-            :key="category"
-            v-slot="{ selected }"
+
+    <div class="mt-2 space-y-2">
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+        >
+          <h2 class="font-medium text-gray-900">
+            Scritti
+          </h2>
+
+          <svg
+            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <button
-              :class="[
-                'w-full select-none rounded-xl py-2 px-1 sm:px-4 text-xs sm:text-sm font-medium leading-5 text-gray-900 focus:outline-none',
-                selected
-                  ? 'bg-white shadow'
-                  : 'hover:bg-white hover:shadow-md',
-              ]"
-            >
-              {{ category }}
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <div class="px-6 p-4 leading-relaxed text-gray-700">
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </p>
+          <NuxtLink to="/scritti">
+            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+              Scritti
+              <Icon name="material-symbols:arrow-forward" size="18" />
             </button>
-          </Tab>
-        </TabList>
+          </NuxtLink>
+        </div>
+      </details>
 
-        <TabPanels>
-          <TabPanel
-            v-for="(posts, idx) in Object.values(categories)"
-            :key="idx"
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+        >
+          <h2 class="font-medium text-gray-900">
+            Frammenti
+          </h2>
+
+          <svg
+            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <ul>
-              <li
-                v-for="post in posts"
-                :key="post.id"
-                class="relative rounded-md px-6 py-4"
-              >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
 
-              <div class="space-y-2">
-                <h2 class="underline decoration-2 decoration-violet-300 text-lg font-medium text-gray-900">
-                  {{ post.name }}
-                </h2>
-                <p class="text-sm leading-relaxed text-gray-500">
-                  {{ post.text }}
-                </p>
-                <div>
-                  <NuxtLink :to="`${post.link}`">
-                    <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-                      {{ post.name }}
-                      <Icon name="material-symbols:arrow-forward" size="18" />
-                    </button>
-                  </NuxtLink>
-                </div>
-              </div>
-              </li>
-            </ul>
-          </TabPanel>
-        </TabPanels>
-      </TabGroup>
+        <div class="px-6 p-4 leading-relaxed text-gray-700">
+          <p class="mb-4">
+            Un personale schedario di frammenti selezionati da letture che nel bene — e nel male — hanno fornito un contributo netto a lacerare le nubi nere di tempesta che oscurano il mio vedere e vivere il mondo. La raccolta è destinata a espandere gli orizzonti delle questioni trattate, riflettendo mano a mano le nicchie di interesse in cui mi ritrovo ad indagare, e componendo un'immagine cruda del mio occhio culturale, mantenendo sempre la volontà di promuovere tutto ciò che è vita, verità e bellezza, declinate non solo in saggi filosofici e articoli politici, ma anche in poesia, arte e lirica. Unico obiettivo è un pensare sempre più raffinato — noncurante di piccole prospettive, di meschini guadagni e di una morale da schiavo. Diverse sono le personalità che fanno da numi tutelari, ma ciò che anima l'intima scelta dei testi si estende oltre il singolo individuo e va in territori fertili, dove non esistono oppressioni e debolezze, ma la fiamma della vita sfida e conquista tutte le corrosioni dello spirito moderno.
+          </p>
+          <NuxtLink to="/frammenti">
+            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+              Frammenti
+              <Icon name="material-symbols:arrow-forward" size="18" />
+            </button>
+          </NuxtLink>
+        </div>
+      </details>
+
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+        >
+          <h2 class="font-medium text-gray-900">
+            Recensioni
+          </h2>
+
+          <svg
+            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <div class="px-6 p-4 leading-relaxed text-gray-700">
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+          </p>
+          <NuxtLink to="/recensioni">
+            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+              Recensioni
+              <Icon name="material-symbols:arrow-forward" size="18" />
+            </button>
+          </NuxtLink>
+        </div>
+      </details>
+
+      <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+        >
+          <h2 class="font-medium text-gray-900">
+            Progetti
+          </h2>
+
+          <svg
+            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </summary>
+
+        <div class="px-6 p-4 leading-relaxed text-gray-700">
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+          </p>
+          <NuxtLink to="/progetti">
+            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+              Progetti
+              <Icon name="material-symbols:arrow-forward" size="18" />
+            </button>
+          </NuxtLink>
+        </div>
+      </details>
     </div>
+
   </div>
 </template>
-
-<script setup>
-  import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-  const categories = ref({
-    Scritti: [
-      {
-        id: 1,
-        text: "a",
-        link: '/scritti',
-        name: 'Scritti'
-      },
-    ],
-    Frammenti: [
-      {
-        id: 2,
-        text: "Un personale schedario di frammenti selezionati da letture che nel bene — e nel male — hanno fornito un contributo netto a lacerare le nubi nere di tempesta che oscurano il mio vedere e vivere il mondo. La raccolta è destinata a espandere gli orizzonti delle questioni trattate, riflettendo mano a mano le nicchie di interesse in cui mi ritrovo ad indagare, e componendo un'immagine cruda del mio occhio culturale, mantenendo sempre la volontà di promuovere tutto ciò che è vita, verità e bellezza, declinate non solo in saggi filosofici e articoli politici, ma anche in poesia, arte e lirica. Unico obiettivo è un pensare sempre più raffinato — noncurante di piccole prospettive, di meschini guadagni e di una morale da schiavo. Diverse sono le personalità che fanno da numi tutelari, ma ciò che anima l'intima scelta dei testi si estende oltre il singolo individuo e va in territori fertili, dove non esistono oppressioni e debolezze, ma la fiamma della vita sfida e conquista tutte le corrosioni dello spirito moderno.",
-        link: '/frammenti',
-        name: 'Frammenti'
-      },
-    ],
-    Recensioni: [
-      {
-        id: 3,
-        text: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
-        link: '/recensioni',
-        name: 'Recensioni'
-      },
-    ],
-    Progetti: [
-      {
-        id: 4,
-        text: 'Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.',
-        link: '/progetti',
-        name: 'Progetti'
-      },
-    ],
-  })
-</script>
-
-<style>
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
-}
-</style>

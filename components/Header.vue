@@ -41,7 +41,7 @@
             leave-to-class="opacity-0"
           >
             <div v-show="hasSearch">
-              <button class="rounded-xl p-2 hover:bg-gray-900 h-10 w-10 flex items-center justify-center" :class="searchbarOpen ? 'bg-gray-900' : 'bg-violet-300'" @click="toggleSearchbar">
+              <button class="rounded-xl p-2 bg-gray-900 hover:bg-violet-300 h-10 w-10 flex items-center justify-center" @click="toggleSearchbar">
                 <Icon v-show="!searchbarOpen" name="mdi:search" size="25" color="white"/>
                 <Icon v-show="searchbarOpen" name="mdi:close" size="25" color="white"/>
               </button>

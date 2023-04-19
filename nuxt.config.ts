@@ -38,7 +38,7 @@ export default defineNuxtConfig({
         modifiers: {
           format: 'jpg',
           width: 800,
-          height: 1100
+          height: 600
         }
       },
     }

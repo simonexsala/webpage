@@ -15,10 +15,10 @@ const formatDate = (date) => {
             <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none hover:shadow-lg">
               {{ formatDate(doc.addedDate) }}
             </time>
-            <span class="rounded-full bg-violet-300/80 py-1.5 px-3 font-medium text-white hover:shadow-lg select-none">
+            <span class="rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white hover:shadow-lg select-none">
               {{ doc.genre }}
             </span>
-            <span class="rounded-full bg-rose-300/80 py-1.5 px-3 font-medium text-white hover:shadow-lg select-none">
+            <span class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 hover:shadow-lg select-none">
               {{ doc.year }}
             </span>
           </div>
