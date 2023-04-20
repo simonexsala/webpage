@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-screen-xl px-4 mt-2">
+  <div class="mx-auto max-w-3xl xl:max-w-5xl px-6 mt-2">
     <div class="bg-gray-50 rounded-lg p-2">
       <form>
         <div class="flex w-full">
@@ -17,7 +17,7 @@
                 leave-from-class="transform scale-100 opacity-100"
                 leave-to-class="transform scale-95 opacity-0"
               >
-                <ListboxOptions class="absolute left-0 mt-4 mr-4 w-24 md:w-32 origin-top-right rounded-xl bg-white shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <ListboxOptions class="absolute left-0 mt-4 mr-4 w-24 md:w-32 origin-top-right rounded-xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div class="px-2 py-1">
                     <ListboxOption
                       v-for="option in options"
@@ -32,7 +32,7 @@
               </transition>
             </Listbox>
           </div>
-          <input v-focus v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
+          <input v-focus v-model="query" autocomplete="off" type="search" class="w-full bg-gray-50 border-gray-300 border-2 px-4 mx-2 md:mx-4 rounded-lg text-sm text-gray-900 focus:outline-none" placeholder="Cerca...">
           <transition            
             enter-active-class="transition ease-in duration-500"
             enter-from-class="opacity-0"
@@ -71,16 +71,16 @@
                     </span>
                   </div>
                   <div class="flex items-center gap-x-2 text-xs">
-                    <time datetime="`{{ article.year }}`" class="rounded-full bg-gray-100 px-3 font-medium text-gray-600 group-hover:shadow-lg select-none">
+                    <time datetime="`{{ article.year }}`" class="rounded-full bg-gray-100 px-3 font-medium text-gray-600 select-none">
                       {{ article.year }}
                     </time>
-                    <span class="hidden sm:flex rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span class="hidden sm:flex rounded-full bg-gray-900 px-3 font-medium text-white select-none">
                       {{ article.book }}
                     </span>
-                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
                       {{ article.book }}
                     </span>
-                    <span v-else class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white group-hover:shadow-lg select-none">
+                    <span v-else class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
                       {{ article.book.substring(0,26) + "..." }}
                     </span>
                   </div>
@@ -105,7 +105,7 @@
             </li>
           </ul>
           <div v-else-if="searched && !articles.length" class="items-center mt-2 flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
-            <p class="flex-1 hover:bg-white hover:shadow-xl px-2 py-2 rounded-lg">
+            <p class="flex-1 px-2 py-2 rounded-lg">
               Nessun risultato trovato
             </p>
               <button @click="searched = false" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">

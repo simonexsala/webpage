@@ -25,9 +25,9 @@ useHead({
 
       <div class="grid justify-center grid-cols-1 gap-4 sm:grid-cols-2 mt-6">
         <div v-for="scritto in scritti" :key="scritto._id">
-          <div class="max-w-sm rounded-xl mx-auto group hover:shadow-md">
+          <div class="max-w-sm rounded-3xl mx-auto group hover:shadow-md">
             <NuxtLink :to="scritto._path">
-              <NuxtImg :src="`${scritto.coverImage}`" preset="frammento" loading="lazy" class="object-cover object-center w-full rounded-xl h-72"
+              <NuxtImg :src="`${scritto.coverImage}`" preset="frammento" loading="lazy" class="object-cover object-center w-full rounded-3xl h-72"
               />
               <div class="flex flex-col p-6 pt-2">
                 <div class="space-y-1">
@@ -55,7 +55,7 @@ useHead({
                   <p class="text-sm leading-relaxed text-gray-500 line-clamp-3">
                     {{ scritto.description }}
                   </p>
-                  <span class="italic 2xl:hidden text-xs bg-gray-100 rounded-xl px-2 py-0.5 text-gray-500 justify-center">
+                  <span class="italic 2xl:hidden text-xs bg-gray-100 rounded-3xl px-2 py-0.5 text-gray-500 justify-center">
                     Lettura di {{ scritto.readingTime }}
                   </span>
                 </div>

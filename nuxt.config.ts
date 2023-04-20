@@ -34,13 +34,6 @@ export default defineNuxtConfig({
           height: 600
         }
       },
-      recensione: {
-        modifiers: {
-          format: 'jpg',
-          width: 800,
-          height: 600
-        }
-      },
     }
   }
 })

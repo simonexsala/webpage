@@ -53,12 +53,14 @@
             <DialogPanel
               class="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all"
             >
-              <div class="flex flex-col">
+              <div class="flex flex-col align-center">
                 <NuxtImg src="bitcoin.jpg" class="mx-auto"/>
 
-                <p class="text-sm text-gray-500 mt-2 mx-auto">
-                  bc1qmgccwpdhf324lzyh7d4n30zcnp269u4jv7cnd0
-                </p>
+                <div class="flex text-[10px] text-gray-500 mt-2 justify-center font-mono">
+                  <p>
+                    bc1qmgccwpdhf324lzyh7d4n30zcnp269u4jv7cnd0
+                  </p>
+                </div>
               </div>
 
               <div class="mt-4">

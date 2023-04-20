@@ -3,13 +3,13 @@
     <NuxtImg
       alt=""
       src="clouds.jpg"
-      class="rounded-xl object-cover transition w-full md:h-96"
+      class="rounded-3xl object-cover transition w-full h-48 sm:h-72 md:h-96"
     />
 
     <div class="mt-2 space-y-2">
       <details class="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
           <h2 class="font-medium text-gray-900">
             Scritti
@@ -46,7 +46,7 @@
 
       <details class="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
           <h2 class="font-medium text-gray-900">
             Frammenti
@@ -69,8 +69,23 @@
         </summary>
 
         <div class="px-6 p-4 leading-relaxed text-gray-700">
+          <p>
+            Un personale schedario di frammenti selezionati da letture che hanno lacerato progressivamente 
+            le nubi nere di tempesta che oscuravano il mio vedere e vivere il mondo, rendendomi testimone 
+            del potere creativo delle sorgenti solari che bagnano il nostro percorso. Gli orizzonti della raccolta 
+            sono in perpetua espansione e riflettono mano a mano le nicchie di interesse che mi contagiano;
+            insieme compongono un'immagine cruda del mio occhio culturale, sempre indirizzato verso l'unica 
+            nobile volontà della vita: promuovere tutto ciò che è potenza, verità, bellezza e sensualità,
+            senza che queste mai siano sottomesse dalle brutalità del mondo. L'obiettivo rimane un
+            pensare sempre più raffinato — noncurante di piccole prospettive e meschini guadagni. 
+          </p>
           <p class="mb-4">
-            Un personale schedario di frammenti selezionati da letture che nel bene — e nel male — hanno fornito un contributo netto a lacerare le nubi nere di tempesta che oscurano il mio vedere e vivere il mondo. La raccolta è destinata a espandere gli orizzonti delle questioni trattate, riflettendo mano a mano le nicchie di interesse in cui mi ritrovo ad indagare, e componendo un'immagine cruda del mio occhio culturale, mantenendo sempre la volontà di promuovere tutto ciò che è vita, verità e bellezza, declinate non solo in saggi filosofici e articoli politici, ma anche in poesia, arte e lirica. Unico obiettivo è un pensare sempre più raffinato — noncurante di piccole prospettive, di meschini guadagni e di una morale da schiavo. Diverse sono le personalità che fanno da numi tutelari, ma ciò che anima l'intima scelta dei testi si estende oltre il singolo individuo e va in territori fertili, dove non esistono oppressioni e debolezze, ma la fiamma della vita sfida e conquista tutte le corrosioni dello spirito moderno.
+            Diversi sono i numi tutelari, ma ciò che anima la scelta dei 
+            testi si estende oltre il singolo e rappresenta l'anelito di conquista di nuovi territori fertili e nuovi
+            scorci dove godere dell'irraggiamento divino, il motore più intimo di un grande impero:
+            Iperborea dove non esiste oppressione e debolezza giacché la fiamma della vita ha lottato e vinto 
+            tutte le corrosioni dello spirito e le bassezze umane. Il luogo dove la gratitudine per una vitalità traboccante
+            e il suo vivace sognare domina su ogni altro sentimento.
           </p>
           <NuxtLink to="/frammenti">
             <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
@@ -83,7 +98,7 @@
 
       <details class="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
           <h2 class="font-medium text-gray-900">
             Recensioni
@@ -120,7 +135,7 @@
 
       <details class="group [&_summary::-webkit-details-marker]:hidden">
         <summary
-          class="flex items-center justify-between px-4 py-2 rounded-xl cursor-pointer bg-gray-50 hover:bg-gray-100"
+          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
           <h2 class="font-medium text-gray-900">
             Progetti
