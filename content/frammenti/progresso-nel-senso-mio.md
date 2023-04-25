@@ -3,13 +3,13 @@ coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Il crepuscolo degli idoli
 year: 1888 
-section: Scorrerie di un inattuale — aforisma 48 
+section: Scorrerie di un inattuale — capitolo 48 
 title: Progresso nel senso mio
 description: Anch'io parlo di «ritorno alla Natura», sebbene questo propriamente non sia un tornare indietro ma un salire in alto, in alto, verso l'alta, libera, magari terribile Natura e naturalezza, una Natura che gioca e può giocare coi grandi compiti... 
 field: Filosofia 
 addedDate: 2023/04/02
 readingTime: 3 minuti
-tags: friedrich nietzsche, il crepuscolo degli idoli, scorrerie di un inattuale, filosofia, società, natura, rousseau, 1888, germania
+tags: friedrich nietzsche, il crepuscolo degli idoli, scorrerie di un inattuale, filosofia, progresso nel senso mio, società, natura, rousseau, 1888, germania
 ---
 
 # Progresso nel senso mio
