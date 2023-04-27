@@ -9,7 +9,7 @@ description: Parlare della spiritualità della montagna, oggi, non è troppo age
 field: Metafisica
 addedDate: 2023/03/24
 readingTime: 19 minuti
-tags: julius evola, meditazioni delle vette, spiritualità della montagna, 1936, metafisica, filosofia, italia
+tags: julius evola, meditazioni delle vette, spiritualità della montagna, 1936, metafisica, filosofia, italia, italia
 ---
 
 # Spiritualità della montagna

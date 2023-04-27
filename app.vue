@@ -2,12 +2,12 @@
 	<div class="antialiased selection:bg-violet-300/[.4]">
     <Header @showSearchbar="showSearchbar = !showSearchbar" @hideSearchbar="showSearchbar = false" />
     <transition
-      enter-active-class="transition ease-out duration-1000"
-      enter-from-class="opacity-0"
-      enter-to-class="opacity-100"
-      leave-active-class="transition duration-400 ease-out"
+      enter-active-class="transition duration-700 ease-out"
+      enter-from-class="transform opacity-0 scale-95"
+      enter-to-class="transform opacity-100 scale-100"
+      leave-active-class="transition duration-500 ease-out"
       leave-from-class="transform scale-100 opacity-100"
-      leave-to-class="transform scale-90 opacity-0"
+      leave-to-class="transform scale-95 opacity-0"
     >
       <Searchbar v-if="showSearchbar" />
     </transition>

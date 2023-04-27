@@ -4,10 +4,7 @@
       <NuxtImg src="mountain.jpg" class="rounded-3xl object-cover w-full h-48 sm:h-72 md:h-96" />
       <div class="mt-4">
         <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
-          What makes
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-rose-300">
-            animool cute and noble?
-          </span>
+          What makes animool cute and noble?
         </h1>
 
         <div class="flex leading-relaxed text-gray-700 mt-2">
