@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container flex-1 max-w-3xl mx-auto xl:max-w-5xl">
-      <NuxtImg src="mountain.jpg" class="rounded-3xl object-cover w-full h-48 sm:h-72 md:h-96" />
+      <NuxtImg src="tiger.jpg" class="rounded-3xl object-cover" />
       <div class="mt-4">
         <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
           What makes animool cute and noble?
