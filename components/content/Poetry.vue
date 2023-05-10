@@ -1,5 +1,5 @@
 <template>
-  <div class="not-prose mx-6 lg:mx-8 my-2">
+  <div class="not-prose lg:mx-8 my-2">
     <slot />
   </div>
 </template>
