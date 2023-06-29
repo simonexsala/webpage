@@ -7,8 +7,8 @@ section: Libro I, capitolo 30, 31 e 32
 title: Solone e Creso
 description: Creso li sottomise e ne annesse i territori al regno dei Lidi; così in una Sardi all'apice dello splendore giunsero in seguito tutti i sapienti di Grecia dell'epoca, uno dopo l'altro, e tra gli altri Solone di Atene. 
 field: Storia
-addedDate: 2023/05/06
-readingTime: 2 minuti
+addedDate: 2023/06/29
+readingTime: 5 minuti
 tags: erodoto, storie, 440 a.C., solone, creso, estetica, antica grecia
 ---
 
