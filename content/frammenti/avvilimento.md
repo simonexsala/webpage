@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche-middle.jpg
 author: Friedrich Nietzsche
 book: Al di là del bene e del male
 year: 1886 
-section: Parte quinta. Per la storia naturale della morale, aforisma 203
+section: Per la storia naturale della morale — aforisma 203
 title: Avvilimento
 description: Noi, che siamo di un’altra fede, — noi, per i quali il movimento democratico non solo è una forma di decadenza dell’organizzazione politica, bensì una forma di decadenza,
 field: Filosofia 

@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche-young.jpg
 author: Friedrich Nietzsche
 book: Sull'utilità e il danno della storia per la vita
 year: 1874 
-section: Sezione 10
+section: Capitolo 10
 title: Gioventù e vita
 description: A questo punto, pensando alla gioventù, io grido — terra! terra! Sono stufo e arcistufo di una traversata che appassionatamente cerca ed erra per mari oscuri e stranieri!
 field: Filosofia 

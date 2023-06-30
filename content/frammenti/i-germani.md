@@ -2,7 +2,7 @@
 coverImage: /frammenti/tacito.jpg
 author: Publio Cornelio Tacito
 book: La Germania
-year: 98
+year: 98 d.C.
 section: Capitolo XIV e XV 
 title: I Germani
 description: In battaglia, è vergognoso per un capo lasciarsi superare in valore dagli inferiori, ed è parimenti vergognoso per questi non eguagliare il coraggio del comandante. 

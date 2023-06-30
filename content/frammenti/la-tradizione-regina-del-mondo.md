@@ -1,9 +1,9 @@
 ---
 coverImage: /frammenti/erodoto.jpg
 author: Erodoto
-book: Le Storie
+book: Storie
 year: 440 a.C.
-section: Libro III, capitolo 38
+section: Libro III — capitolo 38
 title: La tradizione regina del mondo
 description: Per me è del tutto evidente che Cambise divenne completamente pazzo, altrimenti non si sarebbe messo a dileggiare le cose sacre e le tradizioni religiose. 
 field: Storia

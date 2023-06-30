@@ -3,7 +3,7 @@ coverImage: /frammenti/platone.jpg
 author: Platone
 book: Gorgia
 year: 386 a.C.
-section: Sezione XXXVIII e XXXIX
+section: Capitolo XXXVIII e XXXIX
 title: Legge e natura
 description: Callicle — Giacché tu Socrate, col pretesto di indagare il vero, trascini la discussione in questi fastidiosi e plateali sofismi che non sono belli per natura, ma per legge. Ora, il più delle volte,
 field: Politica

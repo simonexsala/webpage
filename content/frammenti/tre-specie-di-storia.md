@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche-young.jpg
 author: Friedrich Nietzsche
 book: Sull'utilità e il danno della storia per la vita
 year: 1874 
-section: Sezione 2 e 3
+section: Capitolo 2 e 3
 title: Tre specie di storia
 description: Ma che la vita abbia bisogno del servizio della storia, deve essere compreso altrettanto chiaramente quanto la proposizione che sarà più tardi da dimostrare — secondo cui un eccesso di storia danneggia l’essere vivente. In tre riguardi al vivente occorre la storia — essa gli occorre in quanto è attivo e ha aspirazioni, in quanto preserva e venera, in quanto soffre e ha bisogno di liberazione. A questi tre rapporti corrispondono tre specie di storia, in quanto sia permesso distinguere una specie di storia monumentale, una specie antiquaria e una specie critica.
 field: Filosofia 
