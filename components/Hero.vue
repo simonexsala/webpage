@@ -4,20 +4,26 @@
       <NuxtImg src="tiger.jpg" class="rounded-3xl object-cover" />
       <div class="mt-4">
         <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">
-          What makes animool cute and noble?
+          Come rendere l'uomo forte e potente?
         </h1>
 
         <div class="flex leading-relaxed text-gray-700 mt-2">
           <article>
             <p>
-              Officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi amet. Nisi anim cupidatat excepteur nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident officia voluptate. 
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-        explicabo quidem voluptatum voluptas illo accusantium ipsam quis,
-        vel mollitia? Vel provident culpa dignissimos possimus, perferendis
-        consectetur odit accusantium dolorem amet voluptates aliquid,
-        ducimus tempore incidunt quas. Veritatis molestias tempora
-        distinctio voluptates sint! Itaque quasi corrupti, sequi quo odit
-        illum impedit!
+              Come quando, in un luogo solitario dove l'acqua scorre 
+              abbondante, un uomo cresce una pianta d'olivo fiorente, 
+              bella, vigorosa, coperta di fiori bianchi, 
+              che si muove al soffio dei venti; 
+              ma all'improvviso una tempesta la sradica da terra e 
+              l'abbatte al suolo...
+              <br />
+              Come quando un leone dei monti, superbo della sua forza, 
+              da una mandria che pascola rapisce la mucca più bella; 
+              e prima le spezza il collo afferrandola con i denti 
+              robusti, poi la sbrana e ne divora le viscere 
+              insanguinate; intorno a lui abbaiano i cani, 
+              gridano i pastori da lontano e non osano farsi 
+              avanti, il livido terrore li coglie... 
             </p>
           </article>
         </div>

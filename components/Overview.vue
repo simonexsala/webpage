@@ -11,7 +11,7 @@
         <summary
           class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
-          <h2 class="font-medium text-gray-900">
+          <h2 class="font-medium text-gray-900 select-none">
             Scritti
           </h2>
 
@@ -48,7 +48,7 @@
         <summary
           class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
-          <h2 class="font-medium text-gray-900">
+          <h2 class="font-medium text-gray-900 select-none">
             Frammenti
           </h2>
 
@@ -75,8 +75,8 @@
             del potere creativo delle sorgenti solari che bagnano il nostro percorso. Gli orizzonti della raccolta 
             sono in perpetua espansione e riflettono mano a mano le nicchie di interesse che mi contagiano;
             insieme compongono un'immagine cruda del mio occhio culturale, sempre indirizzato verso l'unica 
-            nobile volontà della vita: promuovere tutto ciò che è potenza, verità, bellezza e sensualità,
-            senza che queste mai siano sottomesse dalle brutalità del mondo. L'obiettivo rimane un
+            nobile volontà della vita: promuovere tutto ciò che è potenza, verità e bellezza,
+            senza che queste siano sottomesse dalle brutalità del mondo. L'obiettivo rimane un
             pensare sempre più raffinato — noncurante di piccole prospettive e meschini guadagni. 
           </p>
           <p class="mb-4">
@@ -100,7 +100,7 @@
         <summary
           class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
-          <h2 class="font-medium text-gray-900">
+          <h2 class="font-medium text-gray-900 select-none">
             Recensioni
           </h2>
 
@@ -137,7 +137,7 @@
         <summary
           class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
         >
-          <h2 class="font-medium text-gray-900">
+          <h2 class="font-medium text-gray-900 select-none">
             Progetti
           </h2>
 
