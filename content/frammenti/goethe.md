@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Il crepuscolo degli idoli
 year: 1888 
-section: Scorrerie di un inattuale — capitolo 49 
+section: Scorrerie di un inattuale — paragrafo 49 
 title: Goethe
 description: Non è un avvenimento tedesco, ma europeo; è un grandioso tentativo di superare il secolo XVIII mediante un ritorno alla Natura, mediante un innalzarsi alla naturalezza del Rinascimento, una specie di superamento di sé da parte di questo secolo.
 field: Filosofia 

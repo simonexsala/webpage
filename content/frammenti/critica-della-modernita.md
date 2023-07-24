@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Il crepuscolo degli idoli
 year: 1888 
-section: Scorrerie di un inattuale — capitolo 39 
+section: Scorrerie di un inattuale — paragrafo 39 
 title: Critica della modernità
 description: Le nostre istituzioni non valgono più nulla, su questo si è tutti d'accordo. Ma ciò non dipende da esse, ma da noi. Dopo che ci hanno abbandonati tutti gli istinti da cui le istituzioni maturano, ci abbandonano le istituzioni in generale, perché noi non siamo più idonei a esse. 
 field: Filosofia 

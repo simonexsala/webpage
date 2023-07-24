@@ -3,7 +3,7 @@ coverImage: /frammenti/nietzsche.jpg
 author: Friedrich Nietzsche
 book: Il crepuscolo degli idoli
 year: 1888 
-section: I quattro grandi errori — numero 2 
+section: I quattro grandi errori — paragrafo 2 
 title: Istinto
 description: La formula più generale che sta alla base di ogni religione e di ogni morale è «fa questo e quello, non far questo e quello — così sarai felice! Altrimenti...»
 field: Filosofia 
