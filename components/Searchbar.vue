@@ -60,48 +60,48 @@
         >
           <ul v-if="articles.length" class="mt-2 rounded-lg">
             <li v-for="article in articles">
-              <div class="flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
-                <div class="flex-1 flex-col hover:bg-gray-100 px-2 py-1 rounded-lg group">
-                  <div>
-                    <span class="italic">
-                    {{ article.author.split(' ').slice(-1)[0] }},
-                    </span>
-                    <span>
-                    {{ article.title }}
-                    </span>
+              <NuxtLink :to="`${article._path}`" class="ml-auto py-1">
+                <div class="flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
+                  <div class="flex-1 flex-col hover:bg-gray-100 px-2 py-1 rounded-lg group">
+                    <div>
+                      <span class="italic">
+                      {{ article.author.split(' ').slice(-1)[0] }},
+                      </span>
+                      <span>
+                      {{ article.title }}
+                      </span>
+                    </div>
+                    <div class="flex items-center gap-x-2 text-xs">
+                      <time datetime="`{{ article.year }}`" class="rounded-full bg-gray-100 px-3 font-medium text-gray-600 select-none">
+                        {{ article.year }}
+                      </time>
+                      <span class="hidden sm:flex rounded-full bg-gray-900 px-3 font-medium text-white select-none">
+                        {{ article.book }}
+                      </span>
+                      <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
+                        {{ article.book }}
+                      </span>
+                      <span v-else class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
+                        {{ article.book.substring(0,26) + "..." }}
+                      </span>
+                    </div>
                   </div>
-                  <div class="flex items-center gap-x-2 text-xs">
-                    <time datetime="`{{ article.year }}`" class="rounded-full bg-gray-100 px-3 font-medium text-gray-600 select-none">
-                      {{ article.year }}
-                    </time>
-                    <span class="hidden sm:flex rounded-full bg-gray-900 px-3 font-medium text-white select-none">
-                      {{ article.book }}
-                    </span>
-                    <span v-if="article.book.length < 29" class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
-                      {{ article.book }}
-                    </span>
-                    <span v-else class="sm:hidden rounded-full bg-gray-900 px-3 font-medium text-white select-none">
-                      {{ article.book.substring(0,26) + "..." }}
-                    </span>
-                  </div>
-                </div>
 
-                <NuxtLink :to="`${article._path}`" class="ml-auto py-1">
-                  <transition            
-                    enter-active-class="transition ease-in duration-500"
-                    enter-from-class="opacity-0"
-                    enter-to-class="opacity-100"
-                    leave-active-class="transition ease-in-out duration-500"
-                    leave-from-class="opacity-100"
-                    leave-to-class="opacity-0"
-                  >
-                    <button @click="searching = true" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-                      <Icon v-show="!searching" name="material-symbols:arrow-forward" size="25" />
-                      <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
-                    </button>
-                  </transition>
-                </NuxtLink>
-              </div>
+                    <transition            
+                      enter-active-class="transition ease-in duration-500"
+                      enter-from-class="opacity-0"
+                      enter-to-class="opacity-100"
+                      leave-active-class="transition ease-in-out duration-500"
+                      leave-from-class="opacity-100"
+                      leave-to-class="opacity-0"
+                    >
+                      <button @click="searching = true" class="ml-auto h-10 p-2 inline-block text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
+                        <Icon v-show="!searching" name="material-symbols:arrow-forward" size="25" />
+                        <Icon v-show="searching" name="eos-icons:loading" size="25" color="white"/>
+                      </button>
+                    </transition>
+                </div>
+              </NuxtLink>
             </li>
           </ul>
           <div v-else-if="searched && !articles.length" class="items-center mt-2 flex flex-row gap-x-1 text-sm text-gray-900 rounded-lg">
