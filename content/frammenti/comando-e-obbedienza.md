@@ -7,7 +7,7 @@ section: Osservazioni sulla storia naturale della morale — paragrafo 199
 title: Comando e obbedienza
 description: Poiché in ogni tempo, da quando esistono uomini, vi sono stati anche greggi umani (gruppi familiari, comunità, stirpi, popoli, Stati, Chiese) e sempre è esistito un numero grandissimo di obbedienti in confronto dei pochi che hanno il comando
 field: Filosofia 
-addedDate: 2023/07/28
+addedDate: 2023/07/01
 readingTime: 4 minuti
 tags: friedrich nietzsche, al di là del bene e del male, filosofia, comando, obbedienza, 1886, germania
 ---

@@ -7,7 +7,7 @@ section: Il bello nell'arte
 title: Cultura Greca
 description: Il buon gusto che si va sempre piú diffondendo nel mondo ebbe origine sotto il cielo greco. Le invenzioni dei popoli stranieri non pervennero nella Grecia se non come un primo seme, e presero nuova natura e nuova forma in questo paese 
 field: estetica
-addedDate: 2023/07/01
+addedDate: 2023/07/02
 readingTime: 7 minuti
 tags: johann joachim winckelmann, grecia, germania,antica, estetica, filosofia, cultura, arte, bello nell'arte, 1700
 ---
