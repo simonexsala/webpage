@@ -4,7 +4,7 @@ author: Arthur de Gobineau
 book: Saggio sulla disuguaglianza delle razze
 year: 1855
 section: Capitolo V - Le ineguaglianze etniche non sono il risultato delle istituzioni
-title: Santo Domingo e Haiti
+title: Le ineguaglianze etniche non sono il risultato delle istituzioni
 description: L'idea di una ineguaglianza nativa, originale, innegabile e permanente fra le diverse razze è, nel mondo, una delle opinioni più diffuse e accettate fin dalla più remota antichità; e dato il primitivo isolamento delle tribù e degli agglomerati delle origini
 field: società, razze
 addedDate: 2023/11/05
