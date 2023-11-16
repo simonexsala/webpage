@@ -35,14 +35,11 @@ useHead({
                     <time datetime="{{ scritto.year }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ scritto.year }}
                     </time>
-                    <span class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
+                    <span v-if="scritto.book.length < 40" class="rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
                       {{ scritto.book }}
                     </span>
-                    <span v-if="scritto.book.length < 29" class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
-                      {{ scritto.book }}
-                    </span>
-                    <span v-else class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
-                      {{ scritto.book.substring(0,26) + "..." }}
+                    <span v-else class="rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
+                      {{ scritto.book.substring(0,37) + "..." }}
                     </span>
                   </div>
 
