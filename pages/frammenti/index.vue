@@ -35,14 +35,14 @@ useHead({
                     <time datetime="{{ scritto.year }}" class="relative z-10 rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
                       {{ scritto.year }}
                     </time>
-                    <span v-if="scritto.book.length < 29" class="rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
+                    <span class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
                       {{ scritto.book }}
                     </span>
-                    <span v-else class="rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
-                      {{ scritto.book.substring(0,26) + "..." }}
+                    <span v-if="scritto.book.length < 29" class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
+                      {{ scritto.book }}
                     </span>
-                    <span class="hidden 2xl:flex rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600">
-                      {{ scritto.readingTime }}
+                    <span v-else class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white">
+                      {{ scritto.book.substring(0,26) + "..." }}
                     </span>
                   </div>
 
@@ -55,7 +55,7 @@ useHead({
                   <p class="text-sm leading-relaxed text-gray-500 line-clamp-3">
                     {{ scritto.description }}
                   </p>
-                  <span class="italic 2xl:hidden text-xs bg-gray-100 rounded-3xl px-2 py-0.5 text-gray-500 justify-center">
+                  <span class="italic text-xs bg-gray-100 rounded-3xl px-2 py-0.5 text-gray-500 justify-center">
                     Lettura di {{ scritto.readingTime }}
                   </span>
                 </div>
