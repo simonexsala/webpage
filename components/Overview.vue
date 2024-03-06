@@ -1,175 +1,151 @@
+<script setup>
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+</script>
+
 <template>
-  <div class="flex flex-col">
+  <div class="flex-col">
     <NuxtImg
       alt=""
       src="horses.jpg"
       class="rounded-3xl object-cover"
     />
 
-    <div class="mt-4 space-y-2">
-      <details class="group [&_summary::-webkit-details-marker]:hidden">
-        <summary
-          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
+    <h1 class="py-2 sm:py-4 lg:py-8 text-3xl font-bold sm:text-4xl lg:text-5xl text-center select-none">
+      Energia e Natura
+    </h1>
+
+    <div class="mx-auto w-full rounded-3xl bg-white py-2">
+      <Disclosure v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75"
         >
-          <h2 class="font-medium text-gray-900 select-none">
-            Scritti
-          </h2>
+          <span>Scritti</span>
+          <Icon name="mdi:chevron-down"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-violet-300"
+          />
+        </DisclosureButton>
 
-          <svg
-            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </summary>
-
-        <div class="px-6 p-4 leading-relaxed text-gray-700">
-          <p class="mb-4">
+        <transition
+          enter-active-class="transition duration-150 ease-out"
+          enter-from-class="transform scale-95 opacity-0"
+          enter-to-class="transform scale-100 opacity-100"
+          leave-active-class="transition duration-50 ease-in"
+          leave-from-class="transform scale-100 opacity-100"
+          leave-to-class="transform scale-95 opacity-0"
+        >
+          <DisclosurePanel class="px-4 py-2 text-sm font-medium text-gray-500">
             Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-          </p>
-          <NuxtLink to="/scritti">
-            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              Scritti
-              <Icon name="material-symbols:arrow-forward" size="18" />
-            </button>
-          </NuxtLink>
-        </div>
-      </details>
+            <br />
+            <NuxtLink to="/scritti">
+              <button 
+                  class="mt-2 rounded-full bg-gray-100 py-1 px-4 text-sm font-medium text-gray-700 hover:bg-gray-200">
+                Scritti
+                <Icon name="mdi-arrow-right"  class="h-5 w-5 " />
+              </button>
+            </NuxtLink>
+          </DisclosurePanel>
+        </transition>
+      </Disclosure>
 
-      <details class="group [&_summary::-webkit-details-marker]:hidden">
-        <summary
-          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75"
         >
-          <h2 class="font-medium text-gray-900 select-none">
-            Frammenti
-          </h2>
+          <span>Frammenti</span>
+          <Icon name="mdi:chevron-down"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-violet-300"
+          />
+        </DisclosureButton>
 
-          <svg
-            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </summary>
-
-        <div class="px-6 p-4 leading-relaxed text-gray-700">
-          <p>
-            Un personale schedario di frammenti selezionati da letture che hanno lacerato progressivamente 
-            le nubi nere di tempesta che oscuravano il mio vedere e vivere il mondo, rendendomi testimone 
-            del potere creativo delle sorgenti solari che bagnano il nostro percorso. Gli orizzonti della raccolta 
-            sono in perpetua espansione e riflettono mano a mano le nicchie di interesse che mi contagiano;
-            insieme compongono un'immagine cruda del mio occhio culturale, sempre indirizzato verso l'unica 
-            nobile volontà della vita: promuovere tutto ciò che è potenza, verità e bellezza,
-            senza che queste siano sottomesse dalle brutalità del mondo. L'obiettivo rimane un
-            pensare sempre più raffinato — noncurante di piccole prospettive e meschini guadagni. 
-          </p>
-          <p class="mb-4">
-            Diversi sono i numi tutelari, ma ciò che anima la scelta dei 
-            testi si estende oltre il singolo e rappresenta l'anelito di conquista di nuovi territori fertili e nuovi
-            scorci dove godere dell'irraggiamento divino, il motore più intimo di un grande impero:
-            Iperborea dove non esiste oppressione e debolezza giacché la fiamma della vita ha lottato e vinto 
-            tutte le corrosioni dello spirito e le bassezze umane. Il luogo dove la gratitudine per una vitalità traboccante
-            e il suo vivace sognare domina su ogni altro sentimento.
-          </p>
-          <NuxtLink to="/frammenti">
-            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              Frammenti
-              <Icon name="material-symbols:arrow-forward" size="18" />
-            </button>
-          </NuxtLink>
-        </div>
-      </details>
-
-      <details class="group [&_summary::-webkit-details-marker]:hidden">
-        <summary
-          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
+        <transition
+          enter-active-class="transition duration-150 ease-out"
+          enter-from-class="transform scale-95 opacity-0"
+          enter-to-class="transform scale-100 opacity-100"
+          leave-active-class="transition duration-50 ease-in"
+          leave-from-class="transform scale-100 opacity-100"
+          leave-to-class="transform scale-95 opacity-0"
         >
-          <h2 class="font-medium text-gray-900 select-none">
-            Recensioni
-          </h2>
-
-          <svg
-            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </summary>
-
-        <div class="px-6 p-4 leading-relaxed text-gray-700">
-          <p class="mb-4">
-            Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-          </p>
-          <NuxtLink to="/recensioni">
-            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              Recensioni
-              <Icon name="material-symbols:arrow-forward" size="18" />
-            </button>
-          </NuxtLink>
-        </div>
-      </details>
-
-      <details class="group [&_summary::-webkit-details-marker]:hidden">
-        <summary
-          class="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
-        >
-          <h2 class="font-medium text-gray-900 select-none">
-            Progetti
-          </h2>
-
-          <svg
-            class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
-        </summary>
-
-        <div class="px-6 p-4 leading-relaxed text-gray-700">
-          <p class="mb-4">
+          <DisclosurePanel class="px-4 py-2 text-sm font-medium text-gray-500">
             Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-          </p>
-          <NuxtLink to="/progetti">
-            <button class="flex justify-center items-center gap-x-1 w-40 py-3 text-sm font-medium text-white transition bg-gray-900 rounded-xl hover:bg-violet-300 hover:shadow-lg">
-              Progetti
-              <Icon name="material-symbols:arrow-forward" size="18" />
-            </button>
-          </NuxtLink>
-        </div>
-      </details>
+            <br />
+            <NuxtLink to="/frammenti">
+              <button 
+                  class="mt-2 rounded-full bg-gray-100 py-1 px-4 text-sm font-medium text-gray-700 hover:bg-gray-200">
+                Frammenti
+                <Icon name="mdi-arrow-right"  class="h-5 w-5 " />
+              </button>
+            </NuxtLink>
+          </DisclosurePanel>
+        </transition>
+      </Disclosure>
+
+     <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75"
+        >
+          <span>Recensioni</span>
+          <Icon name="mdi:chevron-down"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-violet-300"
+          />
+        </DisclosureButton>
+
+        <transition
+          enter-active-class="transition duration-150 ease-out"
+          enter-from-class="transform scale-95 opacity-0"
+          enter-to-class="transform scale-100 opacity-100"
+          leave-active-class="transition duration-50 ease-in"
+          leave-from-class="transform scale-100 opacity-100"
+          leave-to-class="transform scale-95 opacity-0"
+        >
+          <DisclosurePanel class="px-4 py-2 text-sm font-medium text-gray-500">
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+            <br />
+            <NuxtLink to="/recensioni">
+              <button 
+                  class="mt-2 rounded-full bg-gray-100 py-1 px-4 text-sm font-medium text-gray-700 hover:bg-gray-200">
+                Recensioni
+                <Icon name="mdi-arrow-right"  class="h-5 w-5 " />
+              </button>
+            </NuxtLink>
+          </DisclosurePanel>
+        </transition>
+      </Disclosure>
+
+      <Disclosure as="div" class="mt-2" v-slot="{ open }">
+        <DisclosureButton
+          class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75"
+        >
+          <span>Progetti</span>
+          <Icon name="mdi:chevron-down"
+            :class="open ? 'rotate-180 transform' : ''"
+            class="h-5 w-5 text-violet-300"
+          />
+        </DisclosureButton>
+
+        <transition
+          enter-active-class="transition duration-150 ease-out"
+          enter-from-class="transform scale-95 opacity-0"
+          enter-to-class="transform scale-100 opacity-100"
+          leave-active-class="transition duration-50 ease-in"
+          leave-from-class="transform scale-100 opacity-100"
+          leave-to-class="transform scale-95 opacity-0"
+        >
+          <DisclosurePanel class="px-4 py-2 text-sm font-medium text-gray-500">
+            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
+            <br />
+            <NuxtLink to="/progetti">
+              <button 
+                  class="mt-2 rounded-full bg-gray-100 py-1 px-4 text-sm font-medium text-gray-700 hover:bg-gray-200">
+                Progetti
+                <Icon name="mdi-arrow-right"  class="h-5 w-5 " />
+              </button>
+            </NuxtLink>
+          </DisclosurePanel>
+        </transition>
+      </Disclosure>
     </div>
-
   </div>
 </template>

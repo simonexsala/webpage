@@ -26,15 +26,15 @@ Una tavola delle cose buone è sospesa sopra ogni popolo. Ecco, è la tavola dei
 
 Lodevole è quel che gli sembra arduo; quel che è inevitabile e arduo si chiama buono; e ciò che libera dall'estremo bisogno, il raro, il sommamente arduo, &mdash; è celebrato come santo.
 
-CIò che lo fa dominare, vincere, risplendere, con orrore e invidia del suo vicino, è per lui la cosa più alta, la prima, l'unità di misura, il senso di tutte le cose.
+Ciò che lo fa dominare, vincere, risplendere, con orrore e invidia del suo vicino, è per lui la cosa più alta, la prima, l'unità di misura, il senso di tutte le cose.
 
 In verità, fratello mio, se di un popolo conoscesti già il bisogno e la terra e il cielo e il vicino, indovinerai la legge dei suoi superamenti e perché ascenda su quella scala alla tua speranza.
 
-&laquo;Sempre devi essere il primo ed eccellere sugli altri: la tua anima gelosa non deve amare nessuno, tranne l'amico&raquo; &mdash; questo faceva fremere l'anima del greco. COsì egli percorse il sentiero della sua grandezza.
+&laquo;Sempre devi essere il primo ed eccellere sugli altri: la tua anima gelosa non deve amare nessuno, tranne l'amico&raquo; &mdash; questo faceva fremere l'anima del greco. Così egli percorse il sentiero della sua grandezza.
 
 &laquo;Dire la verità e maneggiare destramente arco e freccia&raquo; &mdash; questo appare caro e arduo al popolo da cui viene il mio nome, il nome che mi è insieme caro e arduo.
 
-&laquo;Onorre il padre e la madre e fare la loro volontà fino alle radici dell'anima&raquo; &mdash; questa tavola del superamento sospese un altro popolo su di sé e divenne per essa potente ed eterno.
+&laquo;Onorare il padre e la madre e fare la loro volontà fino alle radici dell'anima&raquo; &mdash; questa tavola del superamento sospese un altro popolo su di sé e divenne per essa potente ed eterno.
 
 &laquo;Esercitare la fedeltà e per fedeltà porre onore e sangue anche in cause ingiuste e pericolose&raquo; &mdash; così ammaestrandosi un altro popolo domò se stesso e così domandosi divenne gravido e greve di grandi speranze.
 

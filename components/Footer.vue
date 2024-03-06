@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col p-6">
-    <NuxtImg src="avatar.jpg" alt="" class="w-32 h-32 mx-auto rounded-full bg-violet-300 bg-opacity-30" 
+  <div class="flex flex-col px-6 py-4">
+    <NuxtImg src="avatar.png" alt="" class="w-32 h-32 mx-auto rounded-full bg-violet-300 bg-opacity-10" 
     />
     <div class="text-center">
       <div class="my-2 space-y-1">

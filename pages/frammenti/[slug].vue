@@ -5,20 +5,20 @@
         <template #default="{ doc }">
           <NuxtImg :src="`${doc.coverImage}`" preset="frammento" class="mb-0 mx-auto" />
           <div class="flex items-center gap-x-2 text-xs">
-            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none">
+            <time datetime="{{ doc.date }}" class="rounded-full bg-gray-200 py-0.5 px-2 font-medium text-gray-700 select-none">
               {{ doc.year }}
             </time>
-            <span class="hidden sm:flex rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none">
+            <span class="hidden sm:flex rounded-full bg-gray-200 py-0.5 px-2 font-medium text-gray-700 select-none">
               {{ doc.book }}
             </span>
-            <span v-if="doc.book.length < 26" class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none">
+            <span v-if="doc.book.length < 26" class="sm:hidden rounded-full bg-gray-200 py-0.5 px-2 font-medium text-gray-700 select-none">
               {{ doc.book }}
             </span>
-            <span v-else class="sm:hidden rounded-full bg-gray-900 py-1.5 px-3 font-medium text-white select-none">
+            <span v-else class="sm:hidden rounded-full bg-gray-200 py-0.5 px-2 font-medium text-gray-700 select-none">
               {{ doc.book.substring(0,23) + "..." }}
             </span>
-            <span class="rounded-full bg-gray-100 py-1.5 px-3 font-medium text-gray-600 select-none">
-              {{ doc.readingTime }}
+            <span class="rounded-full bg-gray-200 py-0.5 px-2 font-medium text-gray-700 italic select-none">
+              Lettura di {{ doc.readingTime }}
             </span>
           </div>
           <ContentRenderer :value="doc" />
