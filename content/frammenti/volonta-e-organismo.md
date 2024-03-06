@@ -4,15 +4,15 @@ author: Arthur Schopenhauer
 book: Sulla volontà nella Natura 
 year: 1836
 section: 
-title: a
-description: a
-field: Natura
+title: Volontà e organismo
+description: Il tratto fondamentale della mia dottrina, che la mette in contrasto con tutte quante vi sono state prima, è la totale separazione
+field: Filosofia
 addedDate: 2023/11/26
-readingTime: 22 minuti
-tags: arthur schopenhauer, volonta in natura volontà, 1836, filosofia, metafisica, germania
+readingTime: 12 minuti
+tags: volonta e organismo, arthur schopenhauer, volonta in natura volontà, 1836, filosofia, metafisica, germania
 ---
 
-# AA
+# Volontà e organismo
 
 Il tratto fondamentale della mia dottrina, che la mette in contrasto con tutte quante vi sono state prima, è la totale separazione della volontà dalla conoscenza, entrambe le quali tutti i filosofi che mi hanno preceduto hanno considerato inseparabili, anzi hanno considerato la volontà come condizionata dalla conoscenza, che sarebbe il sostrato fondamentale della nostra essenza spirituale, e addirittura, per lo più, come una mera funzione di essa. Quella separazione, quella scomposizione dell’Io o dell’anima, rimasti per tanto tempo indivisibili, in due parti costitutive eterogenee, è per la filosofia ciò che la scomposizione dell’acqua è stato per la chimica, anche se questo sarà riconosciuto soltanto tardi. Per me ciò che nell’uomo è eterno e indistruttibile, che quindi costituisce in lui anche il principio vitale, non è l’anima, ma, se mi posso permettere un’espressione chimica, il radicale dell’anima, e questo è la volontà. La cosiddetta anima è già un composto: essa è il collegamento della volontà con il νοῦς, l’intelletto. Questo intelletto è secondario, è il posterius dell’organismo e una mera funzione cerebrale, da esso condizionata. La volontà è invece primaria, è il prius dell’organismo, e questo è condizionato da quello. Giacché la volontà è quell’essenza in sé che solo nella rappresentazione (quella mera funzione cerebrale) si presenta come un tale corpo organico. Soltanto per mezzo delle forme della conoscenza (o funzione cerebrale), dunque solo nella rappresentazione, il corpo di ogni individuo gli è dato come qualcosa di esteso, articolato, organico, non al di fuori della rappresentazione, non immediatamente nell’autocoscienza. Come le azioni del corpo sono solo i singoli atti della volontà che si rispecchiano nella rappresentazione, così pure il loro sostrato, la forma di questo corpo, è la sua immagine complessiva; perciò, in tutte le funzioni organiche del corpo altrettanto che nelle sue azioni esterne, la volontà è l’agens. La vera fisiologia, al suo più alto livello, mostra che ciò che nell’uomo è spirituale (la conoscenza) è un prodotto del suo fisico, e ciò ha fatto, come nessun altro, Cabanis; ma la vera metafisica ci insegna che questo stesso fisico è mero prodotto, o piuttosto fenomeno di un che di spirituale (la volontà), anzi che la materia stessa è condizionata dalla rappresentazione, nella quale soltanto esiste. L’intuizione e il pensiero vengono sempre più spiegati in base all’organismo, ma non il volere, bensì al contrario in base a questo è spiegato l’organismo, come dimostro sotto la seguente rubrica. Io pongo dunque in primo luogo la volontà, come cosa in sé, completamente originaria; in secondo luogo la sua semplice visibilità, oggettivazione, il corpo; e in terzo luogo la conoscenza, come semplice funzione di una parte di questo corpo. Questa parte stessa è il voler conoscere oggettivato (diventato rappresentazione), in quanto la volontà ha bisogno, per i suoi scopi, della conoscenza. Ma poi questa funzione condiziona a sua volta tutto il mondo come rappresentazione, quindi anche il corpo stesso in quanto è oggetto intuitivo, anzi la materia in genere, che si trova solo nella rappresentazione. Giacché un mondo oggettivo, senza un soggetto nella cui coscienza sussista, è a ben riflettere qualcosa di assolutamente impensabile. La conoscenza e la materia (soggetto e oggetto) esistono solo relativamente l’una per l’altra e costituiscono il fenomeno. Pertanto, in conseguenza della mia modificazione fondamentale, la cosa sta così come non è mai stata.
 
