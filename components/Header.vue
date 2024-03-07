@@ -4,7 +4,7 @@
       <div class="flex items-center justify-between gap-4 lg:gap-8">
         <NuxtLink to="/" class="hover:bg-violet-300/70 bg-gray-100 rounded-xl" exact-active-class="bg-violet-300/70">
           <div class="h-10 text-center select-none font-bold px-2 py-1 rounded-xl">
-            <NuxtImg src="avatar.png" alt="" class="h-8 mx-auto rounded-full" 
+            <NuxtImg src="avatar.png" alt="" class="h-8 w-8 mx-auto rounded-full" 
             />
           </div>
         </NuxtLink>
