@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-3xl xl:max-w-5xl px-6 mt-2">
     <div>
       <form>
-        <div class="flex w-full">
+        <div class="flex">
           <div class="relative text-left">
             <Listbox v-model="selectedOption" name="option">
               <ListboxButton class="bg-gray-100 font-medium text-gray-700 inline-flex w-24 md:w-32 gap-x-1 items-center rounded-xl h-10 px-4 py-2 text-sm hover:bg-gray-200">
@@ -32,7 +32,8 @@
               </transition>
             </Listbox>
           </div>
-          <input v-focus v-model="query" autocomplete="off" type="search" class="flex-1 bg-gray-100 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-700 focus:outline-none hover:bg-gray-200" placeholder="Cerca...">
+            <input v-focus v-model="query" autocomplete="off" type="search" 
+              class="grow w-20 h-10 bg-gray-100 px-4 mx-2 md:mx-4 rounded-xl text-sm text-gray-700 focus:outline-none hover:bg-gray-200" placeholder="Cerca...">
           <transition            
             enter-active-class="transition ease-in duration-500"
             enter-from-class="opacity-0"
@@ -41,7 +42,7 @@
             leave-from-class="opacity-100"
             leave-to-class="opacity-0"
           >
-            <button @click.prevent="search" class="flex items-center justify-center rounded-xl h-10 w-10 p-2 hover:bg-gray-200 bg-gray-100">
+            <button @click.prevent="search" class=" min-w-10 flex items-center justify-center rounded-xl h-10 w-10 p-2 hover:bg-gray-200 bg-gray-100">
               <Icon name="mdi-search" class="text-gray-700 h-5 w-5" />
             </button>
           </transition>
