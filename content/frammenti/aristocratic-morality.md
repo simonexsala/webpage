@@ -9,7 +9,7 @@ description: Wherever we find in the real world a truly Â«aristocratic attitudeÂ
 field: Antropologia
 addedDate: 2023/11/17
 readingTime: 9 minuti
-tags: Costin alamariu, Selective Breeding and the Birth of Philosophy, antropologia, 2023, romania, tutsi
+tags: Costin alamariu, Selective Breeding and the Birth of Philosophy, antropologia, 2023, romania, tutsi, aristocratic conquerors
 ---
 
 # Aristocratic conquerors  

@@ -31,7 +31,7 @@
         
         <div class="flex-1" />
 
-        <div class="items-center justify-end gap-4 flex md:gap-0">
+        <div class="gap-4 flex md:gap-0">
           <transition            
             enter-active-class="transition ease-in duration-500"
             enter-from-class="opacity-0"
@@ -41,9 +41,13 @@
             leave-to-class="opacity-0"
           >
             <div v-show="hasSearch">
-              <button class="rounded-xl p-2 bg-gray-900 hover:bg-violet-300 h-10 w-10 flex items-center justify-center" @click="toggleSearchbar">
-                <Icon v-show="!searchbarOpen" name="mdi:search" size="25" color="white"/>
-                <Icon v-show="searchbarOpen" name="mdi:close" size="25" color="white"/>
+              <button class="flex items-center justify-center rounded-xl h-10 w-10 p-2 hover:bg-gray-200 bg-gray-100" @click="toggleSearchbar">
+                <Icon v-show="!searchbarOpen" name="mdi:search" 
+                  class="h-5 w-5 text-gray-700"
+                />
+                <Icon v-show="searchbarOpen" name="mdi:close" 
+                  class="h-5 w-5 text-gray-700"
+                />
               </button>
             </div>
           </transition>
